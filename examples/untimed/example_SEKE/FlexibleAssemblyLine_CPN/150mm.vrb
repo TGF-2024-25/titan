@@ -1,0 +1,10 @@
+pn "150mm.petrinets" 
+fm "model.xml"
+
+PC for gen_B, cnv_B , arc0 = PartB ;
+PC for gen_A , cnv_A  , arc1 = PartA ;
+PC for cnv_2 , arc8 , arc9 , out_2 , inc_2 , arc10 , arc12 = Parallel ;
+PC for fix , arc14 , arc13 = QualityControl ;
+PC for prod_1 , arc16 = Prod1 ;
+PC for prod_2 , arc17 = Prod2 ;
+PC for pack , arc19 , arc18 , arc20 , assmbly = ( Prod1 and Prod2 ) ;

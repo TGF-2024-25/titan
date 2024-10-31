@@ -1,0 +1,11 @@
+pn "150mm.petrinets" 
+fm "model.xml" 
+
+PC for tray , a_end_in, solid_end, solid, sel_solid, a_start_sel_solid, a_sel_solid_solid , a_solid_solid_end, a_solid_end_tray = Solid ;  
+PC for tea, sel_tea, tea_end, a_start_sel_tea, a_tea_end_cup, a_tea_tea_end = Tea ;  
+PC for sugar , sugar_end, sel_sugar, no_sugar, ready , a_sugar_end_ready = Sugar ; 
+PC for sugar = not Sugar ; 
+PC for coffee , coffee_end, sel_coffee = Coffee ; 
+PC for milk_wait , sel_milk, milk_no, milk, milk_end = Milk ; 
+PC for a_milk_wait_milk_no = not Milk ;
+PC for cup , a_cup_take = (Tea or Coffee) ;

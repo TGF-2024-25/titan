@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature name="AGV"/>
+	<feature name="Parts"/>
+	<feature name="PartA"/>
+	<feature name="PartB"/>
+	<feature name="Workstation"/>
+	<feature name="Workstation1"/>
+	<feature name="Workstation2"/>
+	<feature name="Workstation3"/>
+	<feature name="Workstation4"/>
+	<feature name="Workstation5"/>
+	<feature name="Workstation6"/>
+	<feature name="Workstation7"/>
+</configuration>

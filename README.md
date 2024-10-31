@@ -1,2 +1,2 @@
-# titan
-Repository for TITAN Eclipse plug-in
+# TITAN
+Working repository for the Petri Nets Product Lines tool

@@ -1,0 +1,4 @@
+pn "150mm.petrinets" 
+fm "model.xml"
+
+PC for p4 , a7 , a8 , p5 , a9 , a10 , a11 = f1 ;

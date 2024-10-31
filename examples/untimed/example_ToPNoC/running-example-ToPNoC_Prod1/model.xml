@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="showhiddenfeatures" value="true"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="FlexibleAssemblyLine">
+			<and mandatory="true" name="InParts">
+				<feature name="PartA"/>
+			</and>
+			<and mandatory="true" name="Process">
+				<feature name="QualityControl"/>
+				<feature name="Parallel"/>
+			</and>
+			<and mandatory="true" name="OutProducts">
+				<feature name="Prod1"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>

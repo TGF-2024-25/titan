@@ -1,0 +1,45 @@
+pn "150mm.petrinets" 
+fm "model.xml"
+
+PC for genA_1, cnvA_1, genA_1_cnvA_1, cnvA_1_proc_1 = PartA;
+PC for genB_1, cnvB_1, genB_1_cnvB_1, cnvB_1_proc_1 = PartB;
+PC for out2_1, cnv2_1, inc2_1, in_1_out2_1, out2_1_cnv2_1, cnv2_1_inc2_1, inc2_1_ctrl_1 = Parallel;
+PC for fix_1,  ctrl_1_fix_1,  fix_1_in_1 = QualityControl;
+PC for prod1_1, prod_1_prod1_1 = Prod1;
+PC for prod2_1, prod_1_prod2_1 = Prod2;
+PC for pack_1, assembly_1, prod1_1_pack_1, prod2_1_pack_1, pack_1_assembly_1 = (Prod1 and Prod2);
+PC for genA_2, cnvA_2, genA_2_cnvA_2, cnvA_2_proc_2 = PartA;
+PC for genB_2, cnvB_2, genB_2_cnvB_2, cnvB_2_proc_2 = PartB;
+PC for out2_2, cnv2_2, inc2_2, in_2_out2_2, out2_2_cnv2_2, cnv2_2_inc2_2, inc2_2_ctrl_2 = Parallel;
+PC for fix_2,  ctrl_2_fix_2,  fix_2_in_2 = QualityControl;
+PC for prod1_2, prod_2_prod1_2 = Prod1;
+PC for prod2_2, prod_2_prod2_2 = Prod2;
+PC for pack_2, assembly_2, prod1_2_pack_2, prod2_2_pack_2, pack_2_assembly_2 = (Prod1 and Prod2);
+PC for genA_3, cnvA_3, genA_3_cnvA_3, cnvA_3_proc_3 = PartA;
+PC for genB_3, cnvB_3, genB_3_cnvB_3, cnvB_3_proc_3 = PartB;
+PC for out2_3, cnv2_3, inc2_3, in_3_out2_3, out2_3_cnv2_3, cnv2_3_inc2_3, inc2_3_ctrl_3 = Parallel;
+PC for fix_3,  ctrl_3_fix_3,  fix_3_in_3 = QualityControl;
+PC for prod1_3, prod_3_prod1_3 = Prod1;
+PC for prod2_3, prod_3_prod2_3 = Prod2;
+PC for pack_3, assembly_3, prod1_3_pack_3, prod2_3_pack_3, pack_3_assembly_3 = (Prod1 and Prod2);
+PC for genA_4, cnvA_4, genA_4_cnvA_4, cnvA_4_proc_4 = PartA;
+PC for genB_4, cnvB_4, genB_4_cnvB_4, cnvB_4_proc_4 = PartB;
+PC for out2_4, cnv2_4, inc2_4, in_4_out2_4, out2_4_cnv2_4, cnv2_4_inc2_4, inc2_4_ctrl_4 = Parallel;
+PC for fix_4,  ctrl_4_fix_4,  fix_4_in_4 = QualityControl;
+PC for prod1_4, prod_4_prod1_4 = Prod1;
+PC for prod2_4, prod_4_prod2_4 = Prod2;
+PC for pack_4, assembly_4, prod1_4_pack_4, prod2_4_pack_4, pack_4_assembly_4 = (Prod1 and Prod2);
+PC for genA_5, cnvA_5, genA_5_cnvA_5, cnvA_5_proc_5 = PartA;
+PC for genB_5, cnvB_5, genB_5_cnvB_5, cnvB_5_proc_5 = PartB;
+PC for out2_5, cnv2_5, inc2_5, in_5_out2_5, out2_5_cnv2_5, cnv2_5_inc2_5, inc2_5_ctrl_5 = Parallel;
+PC for fix_5,  ctrl_5_fix_5,  fix_5_in_5 = QualityControl;
+PC for prod1_5, prod_5_prod1_5 = Prod1;
+PC for prod2_5, prod_5_prod2_5 = Prod2;
+PC for pack_5, assembly_5, prod1_5_pack_5, prod2_5_pack_5, pack_5_assembly_5 = (Prod1 and Prod2);
+PC for genA_6, cnvA_6, genA_6_cnvA_6, cnvA_6_proc_6 = PartA;
+PC for genB_6, cnvB_6, genB_6_cnvB_6, cnvB_6_proc_6 = PartB;
+PC for out2_6, cnv2_6, inc2_6, in_6_out2_6, out2_6_cnv2_6, cnv2_6_inc2_6, inc2_6_ctrl_6 = Parallel;
+PC for fix_6,  ctrl_6_fix_6,  fix_6_in_6 = QualityControl;
+PC for prod1_6, prod_6_prod1_6 = Prod1;
+PC for prod2_6, prod_6_prod2_6 = Prod2;
+PC for pack_6, assembly_6, prod1_6_pack_6, prod2_6_pack_6, pack_6_assembly_6 = (Prod1 and Prod2);

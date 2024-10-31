@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ex:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ex="http://www.petrinets.org/">
+  <places name="cnvA_1" outputs="//@arcs.2" inputs="//@arcs.0"/>
+  <places name="cnvB_1" outputs="//@arcs.3" inputs="//@arcs.1"/>
+  <places name="in_1" outputs="//@arcs.5 //@arcs.6" inputs="//@arcs.4 //@arcs.14"/>
+  <places name="cnv1_1" outputs="//@arcs.9" inputs="//@arcs.7"/>
+  <places name="cnv2_1" outputs="//@arcs.10" inputs="//@arcs.8"/>
+  <places name="ctrl_1" outputs="//@arcs.13 //@arcs.15" inputs="//@arcs.11 //@arcs.12"/>
+  <places name="prod1_1" outputs="//@arcs.18" inputs="//@arcs.16"/>
+  <places name="prod2_1" outputs="//@arcs.19" inputs="//@arcs.17"/>
+  <places name="assembly_1" inputs="//@arcs.20"/>
+  <places name="cnvA_2" outputs="//@arcs.23" inputs="//@arcs.21"/>
+  <places name="cnvB_2" outputs="//@arcs.24" inputs="//@arcs.22"/>
+  <places name="in_2" outputs="//@arcs.26 //@arcs.27" inputs="//@arcs.25 //@arcs.35"/>
+  <places name="cnv1_2" outputs="//@arcs.30" inputs="//@arcs.28"/>
+  <places name="cnv2_2" outputs="//@arcs.31" inputs="//@arcs.29"/>
+  <places name="ctrl_2" outputs="//@arcs.34 //@arcs.36" inputs="//@arcs.32 //@arcs.33"/>
+  <places name="prod1_2" outputs="//@arcs.39" inputs="//@arcs.37"/>
+  <places name="prod2_2" outputs="//@arcs.40" inputs="//@arcs.38"/>
+  <places name="assembly_2" inputs="//@arcs.41"/>
+  <places name="cnvA_3" outputs="//@arcs.44" inputs="//@arcs.42"/>
+  <places name="cnvB_3" outputs="//@arcs.45" inputs="//@arcs.43"/>
+  <places name="in_3" outputs="//@arcs.47 //@arcs.48" inputs="//@arcs.46 //@arcs.56"/>
+  <places name="cnv1_3" outputs="//@arcs.51" inputs="//@arcs.49"/>
+  <places name="cnv2_3" outputs="//@arcs.52" inputs="//@arcs.50"/>
+  <places name="ctrl_3" outputs="//@arcs.55 //@arcs.57" inputs="//@arcs.53 //@arcs.54"/>
+  <places name="prod1_3" outputs="//@arcs.60" inputs="//@arcs.58"/>
+  <places name="prod2_3" outputs="//@arcs.61" inputs="//@arcs.59"/>
+  <places name="assembly_3" inputs="//@arcs.62"/>
+  <places name="cnvA_4" outputs="//@arcs.65" inputs="//@arcs.63"/>
+  <places name="cnvB_4" outputs="//@arcs.66" inputs="//@arcs.64"/>
+  <places name="in_4" outputs="//@arcs.68 //@arcs.69" inputs="//@arcs.67 //@arcs.77"/>
+  <places name="cnv1_4" outputs="//@arcs.72" inputs="//@arcs.70"/>
+  <places name="cnv2_4" outputs="//@arcs.73" inputs="//@arcs.71"/>
+  <places name="ctrl_4" outputs="//@arcs.76 //@arcs.78" inputs="//@arcs.74 //@arcs.75"/>
+  <places name="prod1_4" outputs="//@arcs.81" inputs="//@arcs.79"/>
+  <places name="prod2_4" outputs="//@arcs.82" inputs="//@arcs.80"/>
+  <places name="assembly_4" inputs="//@arcs.83"/>
+  <trans name="genA_1" outputs="//@arcs.0"/>
+  <trans name="genB_1" outputs="//@arcs.1"/>
+  <trans name="proc_1" inputs="//@arcs.2 //@arcs.3" outputs="//@arcs.4"/>
+  <trans name="out1_1" inputs="//@arcs.5" outputs="//@arcs.7"/>
+  <trans name="out2_1" inputs="//@arcs.6" outputs="//@arcs.8"/>
+  <trans name="inc1_1" inputs="//@arcs.9" outputs="//@arcs.11"/>
+  <trans name="inc2_1" inputs="//@arcs.10" outputs="//@arcs.12"/>
+  <trans name="fix_1" inputs="//@arcs.13" outputs="//@arcs.14"/>
+  <trans name="prod_1" inputs="//@arcs.15" outputs="//@arcs.16 //@arcs.17"/>
+  <trans name="pack_1" inputs="//@arcs.18 //@arcs.19" outputs="//@arcs.20"/>
+  <trans name="genA_2" outputs="//@arcs.21"/>
+  <trans name="genB_2" outputs="//@arcs.22"/>
+  <trans name="proc_2" inputs="//@arcs.23 //@arcs.24" outputs="//@arcs.25"/>
+  <trans name="out1_2" inputs="//@arcs.26" outputs="//@arcs.28"/>
+  <trans name="out2_2" inputs="//@arcs.27" outputs="//@arcs.29"/>
+  <trans name="inc1_2" inputs="//@arcs.30" outputs="//@arcs.32"/>
+  <trans name="inc2_2" inputs="//@arcs.31" outputs="//@arcs.33"/>
+  <trans name="fix_2" inputs="//@arcs.34" outputs="//@arcs.35"/>
+  <trans name="prod_2" inputs="//@arcs.36" outputs="//@arcs.37 //@arcs.38"/>
+  <trans name="pack_2" inputs="//@arcs.39 //@arcs.40" outputs="//@arcs.41"/>
+  <trans name="genA_3" outputs="//@arcs.42"/>
+  <trans name="genB_3" outputs="//@arcs.43"/>
+  <trans name="proc_3" inputs="//@arcs.44 //@arcs.45" outputs="//@arcs.46"/>
+  <trans name="out1_3" inputs="//@arcs.47" outputs="//@arcs.49"/>
+  <trans name="out2_3" inputs="//@arcs.48" outputs="//@arcs.50"/>
+  <trans name="inc1_3" inputs="//@arcs.51" outputs="//@arcs.53"/>
+  <trans name="inc2_3" inputs="//@arcs.52" outputs="//@arcs.54"/>
+  <trans name="fix_3" inputs="//@arcs.55" outputs="//@arcs.56"/>
+  <trans name="prod_3" inputs="//@arcs.57" outputs="//@arcs.58 //@arcs.59"/>
+  <trans name="pack_3" inputs="//@arcs.60 //@arcs.61" outputs="//@arcs.62"/>
+  <trans name="genA_4" outputs="//@arcs.63"/>
+  <trans name="genB_4" outputs="//@arcs.64"/>
+  <trans name="proc_4" inputs="//@arcs.65 //@arcs.66" outputs="//@arcs.67"/>
+  <trans name="out1_4" inputs="//@arcs.68" outputs="//@arcs.70"/>
+  <trans name="out2_4" inputs="//@arcs.69" outputs="//@arcs.71"/>
+  <trans name="inc1_4" inputs="//@arcs.72" outputs="//@arcs.74"/>
+  <trans name="inc2_4" inputs="//@arcs.73" outputs="//@arcs.75"/>
+  <trans name="fix_4" inputs="//@arcs.76" outputs="//@arcs.77"/>
+  <trans name="prod_4" inputs="//@arcs.78" outputs="//@arcs.79 //@arcs.80"/>
+  <trans name="pack_4" inputs="//@arcs.81 //@arcs.82" outputs="//@arcs.83"/>
+  <arcs xsi:type="ex:TPArc" name="genA_1_cnvA_1" input="//@trans.0" output="//@places.0"/>
+  <arcs xsi:type="ex:TPArc" name="genB_1_cnvB_1" input="//@trans.1" output="//@places.1"/>
+  <arcs xsi:type="ex:PTArc" name="cnvA_1_proc_1" input="//@places.0" output="//@trans.2"/>
+  <arcs xsi:type="ex:PTArc" name="cnvB_1_proc_1" input="//@places.1" output="//@trans.2"/>
+  <arcs xsi:type="ex:TPArc" name="proc_1_in_1" input="//@trans.2" output="//@places.2"/>
+  <arcs xsi:type="ex:PTArc" name="in_1_out1_1" input="//@places.2" output="//@trans.3"/>
+  <arcs xsi:type="ex:PTArc" name="in_1_out2_1" input="//@places.2" output="//@trans.4"/>
+  <arcs xsi:type="ex:TPArc" name="out1_1_cnv1_1" input="//@trans.3" output="//@places.3"/>
+  <arcs xsi:type="ex:TPArc" name="out2_1_cnv2_1" input="//@trans.4" output="//@places.4"/>
+  <arcs xsi:type="ex:PTArc" name="cnv1_1_inc1_1" input="//@places.3" output="//@trans.5"/>
+  <arcs xsi:type="ex:PTArc" name="cnv2_1_inc2_1" input="//@places.4" output="//@trans.6"/>
+  <arcs xsi:type="ex:TPArc" name="inc1_1_ctrl_1" input="//@trans.5" output="//@places.5"/>
+  <arcs xsi:type="ex:TPArc" name="inc2_1_ctrl_1" input="//@trans.6" output="//@places.5"/>
+  <arcs xsi:type="ex:PTArc" name="ctrl_1_fix_1" input="//@places.5" output="//@trans.7"/>
+  <arcs xsi:type="ex:TPArc" name="fix_1_in_1" input="//@trans.7" output="//@places.2"/>
+  <arcs xsi:type="ex:PTArc" name="ctrl_1_prod_1" input="//@places.5" output="//@trans.8"/>
+  <arcs xsi:type="ex:TPArc" name="prod_1_prod1_1" input="//@trans.8" output="//@places.6"/>
+  <arcs xsi:type="ex:TPArc" name="prod_1_prod2_1" input="//@trans.8" output="//@places.7"/>
+  <arcs xsi:type="ex:PTArc" name="prod1_1_pack_1" input="//@places.6" output="//@trans.9"/>
+  <arcs xsi:type="ex:PTArc" name="prod2_1_pack_1" input="//@places.7" output="//@trans.9"/>
+  <arcs xsi:type="ex:TPArc" name="pack_1_assembly_1" input="//@trans.9" output="//@places.8"/>
+  <arcs xsi:type="ex:TPArc" name="genA_2_cnvA_2" input="//@trans.10" output="//@places.9"/>
+  <arcs xsi:type="ex:TPArc" name="genB_2_cnvB_2" input="//@trans.11" output="//@places.10"/>
+  <arcs xsi:type="ex:PTArc" name="cnvA_2_proc_2" input="//@places.9" output="//@trans.12"/>
+  <arcs xsi:type="ex:PTArc" name="cnvB_2_proc_2" input="//@places.10" output="//@trans.12"/>
+  <arcs xsi:type="ex:TPArc" name="proc_2_in_2" input="//@trans.12" output="//@places.11"/>
+  <arcs xsi:type="ex:PTArc" name="in_2_out1_2" input="//@places.11" output="//@trans.13"/>
+  <arcs xsi:type="ex:PTArc" name="in_2_out2_2" input="//@places.11" output="//@trans.14"/>
+  <arcs xsi:type="ex:TPArc" name="out1_2_cnv1_2" input="//@trans.13" output="//@places.12"/>
+  <arcs xsi:type="ex:TPArc" name="out2_2_cnv2_2" input="//@trans.14" output="//@places.13"/>
+  <arcs xsi:type="ex:PTArc" name="cnv1_2_inc1_2" input="//@places.12" output="//@trans.15"/>
+  <arcs xsi:type="ex:PTArc" name="cnv2_2_inc2_2" input="//@places.13" output="//@trans.16"/>
+  <arcs xsi:type="ex:TPArc" name="inc1_2_ctrl_2" input="//@trans.15" output="//@places.14"/>
+  <arcs xsi:type="ex:TPArc" name="inc2_2_ctrl_2" input="//@trans.16" output="//@places.14"/>
+  <arcs xsi:type="ex:PTArc" name="ctrl_2_fix_2" input="//@places.14" output="//@trans.17"/>
+  <arcs xsi:type="ex:TPArc" name="fix_2_in_2" input="//@trans.17" output="//@places.11"/>
+  <arcs xsi:type="ex:PTArc" name="ctrl_2_prod_2" input="//@places.14" output="//@trans.18"/>
+  <arcs xsi:type="ex:TPArc" name="prod_2_prod1_2" input="//@trans.18" output="//@places.15"/>
+  <arcs xsi:type="ex:TPArc" name="prod_2_prod2_2" input="//@trans.18" output="//@places.16"/>
+  <arcs xsi:type="ex:PTArc" name="prod1_2_pack_2" input="//@places.15" output="//@trans.19"/>
+  <arcs xsi:type="ex:PTArc" name="prod2_2_pack_2" input="//@places.16" output="//@trans.19"/>
+  <arcs xsi:type="ex:TPArc" name="pack_2_assembly_2" input="//@trans.19" output="//@places.17"/>
+  <arcs xsi:type="ex:TPArc" name="genA_3_cnvA_3" input="//@trans.20" output="//@places.18"/>
+  <arcs xsi:type="ex:TPArc" name="genB_3_cnvB_3" input="//@trans.21" output="//@places.19"/>
+  <arcs xsi:type="ex:PTArc" name="cnvA_3_proc_3" input="//@places.18" output="//@trans.22"/>
+  <arcs xsi:type="ex:PTArc" name="cnvB_3_proc_3" input="//@places.19" output="//@trans.22"/>
+  <arcs xsi:type="ex:TPArc" name="proc_3_in_3" input="//@trans.22" output="//@places.20"/>
+  <arcs xsi:type="ex:PTArc" name="in_3_out1_3" input="//@places.20" output="//@trans.23"/>
+  <arcs xsi:type="ex:PTArc" name="in_3_out2_3" input="//@places.20" output="//@trans.24"/>
+  <arcs xsi:type="ex:TPArc" name="out1_3_cnv1_3" input="//@trans.23" output="//@places.21"/>
+  <arcs xsi:type="ex:TPArc" name="out2_3_cnv2_3" input="//@trans.24" output="//@places.22"/>
+  <arcs xsi:type="ex:PTArc" name="cnv1_3_inc1_3" input="//@places.21" output="//@trans.25"/>
+  <arcs xsi:type="ex:PTArc" name="cnv2_3_inc2_3" input="//@places.22" output="//@trans.26"/>
+  <arcs xsi:type="ex:TPArc" name="inc1_3_ctrl_3" input="//@trans.25" output="//@places.23"/>
+  <arcs xsi:type="ex:TPArc" name="inc2_3_ctrl_3" input="//@trans.26" output="//@places.23"/>
+  <arcs xsi:type="ex:PTArc" name="ctrl_3_fix_3" input="//@places.23" output="//@trans.27"/>
+  <arcs xsi:type="ex:TPArc" name="fix_3_in_3" input="//@trans.27" output="//@places.20"/>
+  <arcs xsi:type="ex:PTArc" name="ctrl_3_prod_3" input="//@places.23" output="//@trans.28"/>
+  <arcs xsi:type="ex:TPArc" name="prod_3_prod1_3" input="//@trans.28" output="//@places.24"/>
+  <arcs xsi:type="ex:TPArc" name="prod_3_prod2_3" input="//@trans.28" output="//@places.25"/>
+  <arcs xsi:type="ex:PTArc" name="prod1_3_pack_3" input="//@places.24" output="//@trans.29"/>
+  <arcs xsi:type="ex:PTArc" name="prod2_3_pack_3" input="//@places.25" output="//@trans.29"/>
+  <arcs xsi:type="ex:TPArc" name="pack_3_assembly_3" input="//@trans.29" output="//@places.26"/>
+  <arcs xsi:type="ex:TPArc" name="genA_4_cnvA_4" input="//@trans.30" output="//@places.27"/>
+  <arcs xsi:type="ex:TPArc" name="genB_4_cnvB_4" input="//@trans.31" output="//@places.28"/>
+  <arcs xsi:type="ex:PTArc" name="cnvA_4_proc_4" input="//@places.27" output="//@trans.32"/>
+  <arcs xsi:type="ex:PTArc" name="cnvB_4_proc_4" input="//@places.28" output="//@trans.32"/>
+  <arcs xsi:type="ex:TPArc" name="proc_4_in_4" input="//@trans.32" output="//@places.29"/>
+  <arcs xsi:type="ex:PTArc" name="in_4_out1_4" input="//@places.29" output="//@trans.33"/>
+  <arcs xsi:type="ex:PTArc" name="in_4_out2_4" input="//@places.29" output="//@trans.34"/>
+  <arcs xsi:type="ex:TPArc" name="out1_4_cnv1_4" input="//@trans.33" output="//@places.30"/>
+  <arcs xsi:type="ex:TPArc" name="out2_4_cnv2_4" input="//@trans.34" output="//@places.31"/>
+  <arcs xsi:type="ex:PTArc" name="cnv1_4_inc1_4" input="//@places.30" output="//@trans.35"/>
+  <arcs xsi:type="ex:PTArc" name="cnv2_4_inc2_4" input="//@places.31" output="//@trans.36"/>
+  <arcs xsi:type="ex:TPArc" name="inc1_4_ctrl_4" input="//@trans.35" output="//@places.32"/>
+  <arcs xsi:type="ex:TPArc" name="inc2_4_ctrl_4" input="//@trans.36" output="//@places.32"/>
+  <arcs xsi:type="ex:PTArc" name="ctrl_4_fix_4" input="//@places.32" output="//@trans.37"/>
+  <arcs xsi:type="ex:TPArc" name="fix_4_in_4" input="//@trans.37" output="//@places.29"/>
+  <arcs xsi:type="ex:PTArc" name="ctrl_4_prod_4" input="//@places.32" output="//@trans.38"/>
+  <arcs xsi:type="ex:TPArc" name="prod_4_prod1_4" input="//@trans.38" output="//@places.33"/>
+  <arcs xsi:type="ex:TPArc" name="prod_4_prod2_4" input="//@trans.38" output="//@places.34"/>
+  <arcs xsi:type="ex:PTArc" name="prod1_4_pack_4" input="//@places.33" output="//@trans.39"/>
+  <arcs xsi:type="ex:PTArc" name="prod2_4_pack_4" input="//@places.34" output="//@trans.39"/>
+  <arcs xsi:type="ex:TPArc" name="pack_4_assembly_4" input="//@trans.39" output="//@places.35"/>
+</ex:PetriNet>

@@ -1,0 +1,50 @@
+pn "150mm.petrinets" 
+fm "model.xml" 
+
+PC for t01_1, p01_1, p03_1, at01p01_1, at03p03_1, ap01t02_1, ap03t02_1, ap02t01_1, p02_1, at02p02_1, at02p04_1, p04_1, t02_1, ap04t04_1 = PartA ; 
+PC for p05_1, p06_1, t05_1, t06_1, ap05t06_1, at05p05_1, ap06t05_1, at06p06_1, ap07t06_1, p07_1, at06p08_1, p08_1, at07p07_1, ap08t08_1 = PartB ;
+PC for p33_1, p25_1, t29_1, p26_1, t27_1, p47_1,p46_1, p38_1, p34_1, ap34t27_1, t26_1, p37_1, t28_1, p36_1, t25_1, p40_1, p41_1, p35_1, at20p25_1, ap26t22_1, ap25t25_1, at25p26_1, at32p40_1, ap35t26_1, at26p41_1, ap41t33_1, at29p35_1, ap46t29_1, at29p47_1, at34p46_1, ap47t35_1, ap33t25_1, at25p34_1, at26p36_1, ap36t27_1, at29p33_1, at28p38_1, ap38t29_1, ap37t28_1, ap40t26_1, at27p37_1 = Workstation1;
+PC for p18_1, ap18t16_1, t16_1, at16p19_1, t15_1, ap17t15_1, p17_1, at14p17_1, t14_1, ap16t14_1, p16_1, at13p16_1, t13_1, ap19t13_1, p19_1, p30_1, p20_1, ap14t13_1, at13p13_1, p14_1, p13_1, at10p14_1, ap13t09_1, at15p18_1, ap20t16_1, at16p30_1 , at21p20_1, ap30t19_1 = Workstation2; 
+PC for p63_1, at46p62_1, ap61t46_1, p62_1, ap62t47_1, t48_1, at47p63_1, t47_1, p64_1, ap63t48_1, p61_1, at49p61_1, ap64t49_1, at48p64_1 = Workstation3;
+
+PC for t01_2, p01_2, p03_2, at01p01_2, at03p03_2, ap01t02_2, ap03t02_2, ap02t01_2, p02_2, at02p02_2, at02p04_2, p04_2, t02_2, ap04t04_2 = PartA ; 
+PC for p05_2, p06_2, t05_2, t06_2, ap05t06_2, at05p05_2, ap06t05_2, at06p06_2, ap07t06_2, p07_2, at06p08_2, p08_2, at07p07_2, ap08t08_2 = PartB ;
+PC for p33_2, p25_2, t29_2, p26_2, t27_2, p47_2,p46_2, p38_2, p34_2, ap34t27_2, t26_2, p37_2, t28_2, p36_2, t25_2, p40_2, p41_2, p35_2, at20p25_2, ap26t22_2, ap25t25_2, at25p26_2, at32p40_2, ap35t26_2, at26p41_2, ap41t33_2, at29p35_2, ap46t29_2, at29p47_2, at34p46_2, ap47t35_2, ap33t25_2, at25p34_2, at26p36_2, ap36t27_2, at29p33_2, at28p38_2, ap38t29_2, ap37t28_2, ap40t26_2, at27p37_2 = Workstation1;
+PC for p18_2, ap18t16_2, t16_2, at16p19_2, t15_2, ap17t15_2, p17_2, at14p17_2, t14_2, ap16t14_2, p16_2, at13p16_2, t13_2, ap19t13_2, p19_2, p30_2, p20_2, ap14t13_2, at13p13_2, p14_2, p13_2, at10p14_2, ap13t09_2, at15p18_2, ap20t16_2, at16p30_2 , at21p20_2, ap30t19_2 = Workstation2; 
+PC for p63_2, at46p62_2, ap61t46_2, p62_2, ap62t47_2, t48_2, at47p63_2, t47_2, p64_2, ap63t48_2, p61_2, at49p61_2, ap64t49_2, at48p64_2 = Workstation3;
+
+PC for t01_3, p01_3, p03_3, at01p01_3, at03p03_3, ap01t02_3, ap03t02_3, ap02t01_3, p02_3, at02p02_3, at02p04_3, p04_3, t02_3, ap04t04_3 = PartA ; 
+PC for p05_3, p06_3, t05_3, t06_3, ap05t06_3, at05p05_3, ap06t05_3, at06p06_3, ap07t06_3, p07_3, at06p08_3, p08_3, at07p07_3, ap08t08_3 = PartB ;
+PC for p33_3, p25_3, t29_3, p26_3, t27_3, p47_3,p46_3, p38_3, p34_3, ap34t27_3, t26_3, p37_3, t28_3, p36_3, t25_3, p40_3, p41_3, p35_3, at20p25_3, ap26t22_3, ap25t25_3, at25p26_3, at32p40_3, ap35t26_3, at26p41_3, ap41t33_3, at29p35_3, ap46t29_3, at29p47_3, at34p46_3, ap47t35_3, ap33t25_3, at25p34_3, at26p36_3, ap36t27_3, at29p33_3, at28p38_3, ap38t29_3, ap37t28_3, ap40t26_3, at27p37_3 = Workstation1;
+PC for p18_3, ap18t16_3, t16_3, at16p19_3, t15_3, ap17t15_3, p17_3, at14p17_3, t14_3, ap16t14_3, p16_3, at13p16_3, t13_3, ap19t13_3, p19_3, p30_3, p20_3, ap14t13_3, at13p13_3, p14_3, p13_3, at10p14_3, ap13t09_3, at15p18_3, ap20t16_3, at16p30_3 , at21p20_3, ap30t19_3 = Workstation2; 
+PC for p63_3, at46p62_3, ap61t46_3, p62_3, ap62t47_3, t48_3, at47p63_3, t47_3, p64_3, ap63t48_3, p61_3, at49p61_3, ap64t49_3, at48p64_3 = Workstation3;
+
+PC for t01_4, p01_4, p03_4, at01p01_4, at03p03_4, ap01t02_4, ap03t02_4, ap02t01_4, p02_4, at02p02_4, at02p04_4, p04_4, t02_4, ap04t04_4 = PartA ; 
+PC for p05_4, p06_4, t05_4, t06_4, ap05t06_4, at05p05_4, ap06t05_4, at06p06_4, ap07t06_4, p07_4, at06p08_4, p08_4, at07p07_4, ap08t08_4 = PartB ;
+PC for p33_4, p25_4, t29_4, p26_4, t27_4, p47_4,p46_4, p38_4, p34_4, ap34t27_4, t26_4, p37_4, t28_4, p36_4, t25_4, p40_4, p41_4, p35_4, at20p25_4, ap26t22_4, ap25t25_4, at25p26_4, at32p40_4, ap35t26_4, at26p41_4, ap41t33_4, at29p35_4, ap46t29_4, at29p47_4, at34p46_4, ap47t35_4, ap33t25_4, at25p34_4, at26p36_4, ap36t27_4, at29p33_4, at28p38_4, ap38t29_4, ap37t28_4, ap40t26_4, at27p37_4 = Workstation1;
+PC for p18_4, ap18t16_4, t16_4, at16p19_4, t15_4, ap17t15_4, p17_4, at14p17_4, t14_4, ap16t14_4, p16_4, at13p16_4, t13_4, ap19t13_4, p19_4, p30_4, p20_4, ap14t13_4, at13p13_4, p14_4, p13_4, at10p14_4, ap13t09_4, at15p18_4, ap20t16_4, at16p30_4 , at21p20_4, ap30t19_4 = Workstation2; 
+PC for p63_4, at46p62_4, ap61t46_4, p62_4, ap62t47_4, t48_4, at47p63_4, t47_4, p64_4, ap63t48_4, p61_4, at49p61_4, ap64t49_4, at48p64_4 = Workstation3;
+
+PC for t01_5, p01_5, p03_5, at01p01_5, at03p03_5, ap01t02_5, ap03t02_5, ap02t01_5, p02_5, at02p02_5, at02p04_5, p04_5, t02_5, ap04t04_5 = PartA ; 
+PC for p05_5, p06_5, t05_5, t06_5, ap05t06_5, at05p05_5, ap06t05_5, at06p06_5, ap07t06_5, p07_5, at06p08_5, p08_5, at07p07_5, ap08t08_5 = PartB ;
+PC for p33_5, p25_5, t29_5, p26_5, t27_5, p47_5,p46_5, p38_5, p34_5, ap34t27_5, t26_5, p37_5, t28_5, p36_5, t25_5, p40_5, p41_5, p35_5, at20p25_5, ap26t22_5, ap25t25_5, at25p26_5, at32p40_5, ap35t26_5, at26p41_5, ap41t33_5, at29p35_5, ap46t29_5, at29p47_5, at34p46_5, ap47t35_5, ap33t25_5, at25p34_5, at26p36_5, ap36t27_5, at29p33_5, at28p38_5, ap38t29_5, ap37t28_5, ap40t26_5, at27p37_5 = Workstation1;
+PC for p18_5, ap18t16_5, t16_5, at16p19_5, t15_5, ap17t15_5, p17_5, at14p17_5, t14_5, ap16t14_5, p16_5, at13p16_5, t13_5, ap19t13_5, p19_5, p30_5, p20_5, ap14t13_5, at13p13_5, p14_5, p13_5, at10p14_5, ap13t09_5, at15p18_5, ap20t16_5, at16p30_5 , at21p20_5, ap30t19_5 = Workstation2; 
+PC for p63_5, at46p62_5, ap61t46_5, p62_5, ap62t47_5, t48_5, at47p63_5, t47_5, p64_5, ap63t48_5, p61_5, at49p61_5, ap64t49_5, at48p64_5 = Workstation3;
+
+PC for t01_6, p01_6, p03_6, at01p01_6, at03p03_6, ap01t02_6, ap03t02_6, ap02t01_6, p02_6, at02p02_6, at02p04_6, p04_6, t02_6, ap04t04_6 = PartA ; 
+PC for p05_6, p06_6, t05_6, t06_6, ap05t06_6, at05p05_6, ap06t05_6, at06p06_6, ap07t06_6, p07_6, at06p08_6, p08_6, at07p07_6, ap08t08_6 = PartB ;
+PC for p33_6, p25_6, t29_6, p26_6, t27_6, p47_6,p46_6, p38_6, p34_6, ap34t27_6, t26_6, p37_6, t28_6, p36_6, t25_6, p40_6, p41_6, p35_6, at20p25_6, ap26t22_6, ap25t25_6, at25p26_6, at32p40_6, ap35t26_6, at26p41_6, ap41t33_6, at29p35_6, ap46t29_6, at29p47_6, at34p46_6, ap47t35_6, ap33t25_6, at25p34_6, at26p36_6, ap36t27_6, at29p33_6, at28p38_6, ap38t29_6, ap37t28_6, ap40t26_6, at27p37_6 = Workstation1;
+PC for p18_6, ap18t16_6, t16_6, at16p19_6, t15_6, ap17t15_6, p17_6, at14p17_6, t14_6, ap16t14_6, p16_6, at13p16_6, t13_6, ap19t13_6, p19_6, p30_6, p20_6, ap14t13_6, at13p13_6, p14_6, p13_6, at10p14_6, ap13t09_6, at15p18_6, ap20t16_6, at16p30_6 , at21p20_6, ap30t19_6 = Workstation2; 
+PC for p63_6, at46p62_6, ap61t46_6, p62_6, ap62t47_6, t48_6, at47p63_6, t47_6, p64_6, ap63t48_6, p61_6, at49p61_6, ap64t49_6, at48p64_6 = Workstation3;
+
+PC for t01_7, p01_7, p03_7, at01p01_7, at03p03_7, ap01t02_7, ap03t02_7, ap02t01_7, p02_7, at02p02_7, at02p04_7, p04_7, t02_7, ap04t04_7 = PartA ; 
+PC for p05_7, p06_7, t05_7, t06_7, ap05t06_7, at05p05_7, ap06t05_7, at06p06_7, ap07t06_7, p07_7, at06p08_7, p08_7, at07p07_7, ap08t08_7 = PartB ;
+PC for p33_7, p25_7, t29_7, p26_7, t27_7, p47_7,p46_7, p38_7, p34_7, ap34t27_7, t26_7, p37_7, t28_7, p36_7, t25_7, p40_7, p41_7, p35_7, at20p25_7, ap26t22_7, ap25t25_7, at25p26_7, at32p40_7, ap35t26_7, at26p41_7, ap41t33_7, at29p35_7, ap46t29_7, at29p47_7, at34p46_7, ap47t35_7, ap33t25_7, at25p34_7, at26p36_7, ap36t27_7, at29p33_7, at28p38_7, ap38t29_7, ap37t28_7, ap40t26_7, at27p37_7 = Workstation1;
+PC for p18_7, ap18t16_7, t16_7, at16p19_7, t15_7, ap17t15_7, p17_7, at14p17_7, t14_7, ap16t14_7, p16_7, at13p16_7, t13_7, ap19t13_7, p19_7, p30_7, p20_7, ap14t13_7, at13p13_7, p14_7, p13_7, at10p14_7, ap13t09_7, at15p18_7, ap20t16_7, at16p30_7 , at21p20_7, ap30t19_7 = Workstation2; 
+PC for p63_7, at46p62_7, ap61t46_7, p62_7, ap62t47_7, t48_7, at47p63_7, t47_7, p64_7, ap63t48_7, p61_7, at49p61_7, ap64t49_7, at48p64_7 = Workstation3;
+
+PC for t01_8, p01_8, p03_8, at01p01_8, at03p03_8, ap01t02_8, ap03t02_8, ap02t01_8, p02_8, at02p02_8, at02p04_8, p04_8, t02_8, ap04t04_8 = PartA ; 
+PC for p05_8, p06_8, t05_8, t06_8, ap05t06_8, at05p05_8, ap06t05_8, at06p06_8, ap07t06_8, p07_8, at06p08_8, p08_8, at07p07_8, ap08t08_8 = PartB ;
+PC for p33_8, p25_8, t29_8, p26_8, t27_8, p47_8,p46_8, p38_8, p34_8, ap34t27_8, t26_8, p37_8, t28_8, p36_8, t25_8, p40_8, p41_8, p35_8, at20p25_8, ap26t22_8, ap25t25_8, at25p26_8, at32p40_8, ap35t26_8, at26p41_8, ap41t33_8, at29p35_8, ap46t29_8, at29p47_8, at34p46_8, ap47t35_8, ap33t25_8, at25p34_8, at26p36_8, ap36t27_8, at29p33_8, at28p38_8, ap38t29_8, ap37t28_8, ap40t26_8, at27p37_8 = Workstation1;
+PC for p18_8, ap18t16_8, t16_8, at16p19_8, t15_8, ap17t15_8, p17_8, at14p17_8, t14_8, ap16t14_8, p16_8, at13p16_8, t13_8, ap19t13_8, p19_8, p30_8, p20_8, ap14t13_8, at13p13_8, p14_8, p13_8, at10p14_8, ap13t09_8, at15p18_8, ap20t16_8, at16p30_8 , at21p20_8, ap30t19_8 = Workstation2; 
+PC for p63_8, at46p62_8, ap61t46_8, p62_8, ap62t47_8, t48_8, at47p63_8, t47_8, p64_8, ap63t48_8, p61_8, at49p61_8, ap64t49_8, at48p64_8 = Workstation3;

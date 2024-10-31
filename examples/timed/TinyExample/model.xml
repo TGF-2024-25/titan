@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="showhiddenfeatures" value="true"/>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and mandatory="true" name="Feature_Model">
+			<graphics key="collapsed" value="false"/>
+			<feature mandatory="true" name="fWorker1">
+				<graphics key="collapsed" value="false"/>
+			</feature>
+			<feature name="fWorker2">
+				<graphics key="collapsed" value="false"/>
+			</feature>
+			<feature name="fWorker3"/>
+		</and>
+	</struct>
+	<constraints>
+		<rule>
+			<conj>
+				<imp>
+					<var>fWorker2</var>
+					<var>fWorker1</var>
+				</imp>
+				<imp>
+					<var>fWorker3</var>
+					<var>fWorker2</var>
+				</imp>
+			</conj>
+		</rule>
+	</constraints>
+</featureModel>

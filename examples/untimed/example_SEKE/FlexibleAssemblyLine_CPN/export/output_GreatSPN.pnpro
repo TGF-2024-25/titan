@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="output" version="121">
+	<gspn name="output" show-color-cmd="false" show-fluid-cmd="false">
+	<nodes>
+		<!-- List of places -->
+			<place marking="0" name="cnv_1" x="10" y="10"/>
+			<place marking="0" name="in" x="20" y="10"/>
+			<place marking="0" name="ctrl" x="30" y="10"/>
+			<place marking="0" name="prod_2" x="40" y="10"/>
+			<place marking="0" name="prod_1" x="50" y="10"/>
+			<place marking="0" name="cnv_B" x="60" y="10"/>
+			<place marking="0" name="assmbly" x="70" y="10"/>
+			<place marking="0" name="cnv_A" x="80" y="10"/>
+			<place marking="0" name="cnv_2" x="90" y="10"/>
+		
+		<!-- List of transitions -->	
+			<transition name="inc_1" priority="1" weight="1" type="IMM" x="10" y="10"/>
+			<transition name="gen_B" priority="1" weight="1" type="IMM" x="20" y="10"/>
+			<transition name="proc" priority="1" weight="1" type="IMM" x="30" y="10"/>
+			<transition name="gen_A" priority="1" weight="1" type="IMM" x="40" y="10"/>
+			<transition name="out_1" priority="1" weight="1" type="IMM" x="50" y="10"/>
+			<transition name="inc_2" priority="1" weight="1" type="IMM" x="60" y="10"/>
+			<transition name="fix" priority="1" weight="1" type="IMM" x="70" y="10"/>
+			<transition name="pack" priority="1" weight="1" type="IMM" x="80" y="10"/>
+			<transition name="out_2" priority="1" weight="1" type="IMM" x="90" y="10"/>
+			<transition name="prod" priority="1" weight="1" type="IMM" x="100" y="10"/>
+		
+	</nodes>
+	<edges>
+		<!-- List of arcs -->
+				<arc id="10"  head="pack" kind="INPUT" mult="1" tail="prod_1"/>
+				<arc id="arc4" head="in" kind="OUTPUT" mult="1" tail="proc"/>
+				
+				<arc id="arc12" head="ctrl" kind="OUTPUT" mult="1" tail="inc_2"/>
+				
+				<arc id="arc6" head="cnv_1" kind="OUTPUT" mult="1" tail="out_1"/>
+				
+				<arc id="50"  head="out_1" kind="INPUT" mult="1" tail="in"/>
+				<arc id="60"  head="proc" kind="INPUT" mult="1" tail="cnv_B"/>
+				<arc id="arc0" head="cnv_B" kind="OUTPUT" mult="1" tail="gen_B"/>
+				
+				<arc id="80"  head="prod" kind="INPUT" mult="1" tail="ctrl"/>
+				<arc id="arc20" head="assmbly" kind="OUTPUT" mult="1" tail="pack"/>
+				
+				<arc id="100"  head="inc_2" kind="INPUT" mult="1" tail="cnv_2"/>
+				<arc id="110"  head="fix" kind="INPUT" mult="1" tail="ctrl"/>
+				<arc id="arc8" head="cnv_2" kind="OUTPUT" mult="1" tail="out_2"/>
+				
+				<arc id="130"  head="proc" kind="INPUT" mult="1" tail="cnv_A"/>
+				<arc id="arc17" head="prod_2" kind="OUTPUT" mult="1" tail="prod"/>
+				
+				<arc id="arc14" head="in" kind="OUTPUT" mult="1" tail="fix"/>
+				
+				<arc id="arc11" head="ctrl" kind="OUTPUT" mult="1" tail="inc_1"/>
+				
+				<arc id="arc1" head="cnv_A" kind="OUTPUT" mult="1" tail="gen_A"/>
+				
+				<arc id="180"  head="inc_1" kind="INPUT" mult="1" tail="cnv_1"/>
+				<arc id="arc16" head="prod_1" kind="OUTPUT" mult="1" tail="prod"/>
+				
+				<arc id="200"  head="pack" kind="INPUT" mult="1" tail="prod_2"/>
+				<arc id="210"  head="out_2" kind="INPUT" mult="1" tail="in"/>
+		
+	</edges>
+	</gspn>
+	<measures gspn-name="GSPN" name="Measures" simplified-UI="false">
+		<assignments/>
+		<greatspn/>
+		<formulas>
+			<formula comment="Basic statistics of the toolchain execution." language="STAT"/>
+			<formula comment="All the basic Petri net measures" language="ALL"/>
+		</formulas>
+	</measures>
+</project>

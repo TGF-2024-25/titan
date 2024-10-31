@@ -1,0 +1,10 @@
+pn "150mm.petrinets" 
+fm "model.xml" 
+
+PC for t01 , p01, p03, at01p01, at03p03, ap01t02, ap03t02 , ap02t01, p02, at02p02, at02p04, p04, t02 , ap04t04 = PartA ; 
+
+PC for p05 , p06, t05, t06, ap05t06, at05p05, ap06t05, at06p06, ap07t06, p07, at06p08, p08 , at07p07, ap08t08 = PartB ;
+
+PC for p33 , p25, ap24t27, t25, ap32t27, at27p25, p26, at19p24, ap25t21, at26p32, t29, at26p46, p47, ap43t34, at33p45, p46, at26p34, p38, p34, ap33t25, t27 , p37, ap36t28, t28, p36, at24p35, t26, ap38t24, p40, at31p38, at24p39, p41, ap39t32, p35 = Workstation1 ;
+
+PC for p18 , ap18t16, t16, at16p19, t15, ap17t15, p17, at14p17, t14, ap16t14, p16, at13p16, t13, ap19t13, p19 , at15p29, p30, ap29t18, ap19t15, p20, at20p19 , ap14t13, at13p13, p14, p13, at10p14, ap13t09 , at15p18 = Workstation2 ;

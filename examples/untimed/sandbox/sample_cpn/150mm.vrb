@@ -1,0 +1,6 @@
+pn "150mm.petrinets" 
+fm "model.xml"
+
+PC for t2 = (F and G) ;
+PC for arc2 = F ;
+PC for arc6 , arc5 = G ;

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="FlexibleAssemblyLine"/>
+	<feature automatic="selected" name="InParts"/>
+	<feature manual="selected" name="PartA"/>
+	<feature name="PartB"/>
+	<feature name="PartC"/>
+	<feature name="PartD"/>
+	<feature name="PartE"/>
+	<feature automatic="selected" name="Process"/>
+	<feature name="QualityControl"/>
+	<feature name="Parallel"/>
+	<feature automatic="selected" name="OutProducts"/>
+	<feature manual="selected" name="Prod1"/>
+	<feature name="Prod2"/>
+	<feature name="Prod3"/>
+	<feature name="Prod4"/>
+	<feature name="Prod5"/>
+</configuration>

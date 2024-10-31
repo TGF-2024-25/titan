@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <feature automatic="selected" name="FlexibleAssemblyLine"/>
+    <feature automatic="selected" name="InParts"/>
+    <feature manual="selected" name="PartA"/>
+    <feature automatic="selected" name="Process"/>
+    <feature automatic="selected" name="OutProducts"/>
+    <feature manual="selected" name="Prod1"/>
+</configuration>

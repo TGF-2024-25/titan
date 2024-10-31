@@ -1,0 +1,10 @@
+pn "150mm.petrinets" 
+fm "model.xml"
+
+PC for genA_1, cnvA_1, genA_1_cnvA_1, cnvA_1_proc_1 = (((PartA and PartC) and PartD) and (PartE and PartF));
+PC for genB_1, cnvB_1, genB_1_cnvB_1, cnvB_1_proc_1 = PartB;
+PC for out2_1, cnv2_1, inc2_1, in_1_out2_1, out2_1_cnv2_1, cnv2_1_inc2_1, inc2_1_ctrl_1 = Parallel;
+PC for fix_1,  ctrl_1_fix_1,  fix_1_in_1 = QualityControl;
+PC for prod1_1, prod_1_prod1_1 = Prod1;
+PC for prod2_1, prod_1_prod2_1 = Prod2;
+PC for pack_1, assembly_1, prod1_1_pack_1, prod2_1_pack_1, pack_1_assembly_1 = ((Prod1 and Prod2) and (Prod3 and (Prod4 and (Prod5 and Prod6))));

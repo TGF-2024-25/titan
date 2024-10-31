@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ex:PetriNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ex="http://www.petrinets.org/">
+  <places name="p100_1" outputs="//@arcs.0" inputs="//@arcs.5"/>
+  <places name="p100_2" outputs="//@arcs.1" inputs="//@arcs.3"/>
+  <places name="p100_3" outputs="//@arcs.2" inputs="//@arcs.4"/>
+  <places name="p101_1" outputs="//@arcs.6" inputs="//@arcs.11"/>
+  <places name="p101_2" outputs="//@arcs.7" inputs="//@arcs.9"/>
+  <places name="p101_3" outputs="//@arcs.8" inputs="//@arcs.10"/>
+  <places name="p102_1" outputs="//@arcs.12" inputs="//@arcs.17"/>
+  <places name="p102_2" outputs="//@arcs.13" inputs="//@arcs.15"/>
+  <places name="p102_3" outputs="//@arcs.14" inputs="//@arcs.16"/>
+  <places name="p103_1" outputs="//@arcs.18" inputs="//@arcs.23"/>
+  <places name="p103_2" outputs="//@arcs.19" inputs="//@arcs.21"/>
+  <places name="p103_3" outputs="//@arcs.20" inputs="//@arcs.22"/>
+  <places name="p104_1" outputs="//@arcs.24" inputs="//@arcs.29"/>
+  <places name="p104_2" outputs="//@arcs.25" inputs="//@arcs.27"/>
+  <places name="p104_3" outputs="//@arcs.26" inputs="//@arcs.28"/>
+  <places name="p105_1" outputs="//@arcs.30" inputs="//@arcs.35"/>
+  <places name="p105_2" outputs="//@arcs.31" inputs="//@arcs.33"/>
+  <places name="p105_3" outputs="//@arcs.32" inputs="//@arcs.34"/>
+  <places name="p106_1" outputs="//@arcs.36" inputs="//@arcs.41"/>
+  <places name="p106_2" outputs="//@arcs.37" inputs="//@arcs.39"/>
+  <places name="p106_3" outputs="//@arcs.38" inputs="//@arcs.40"/>
+  <places name="p107_1" outputs="//@arcs.42" inputs="//@arcs.47"/>
+  <places name="p107_2" outputs="//@arcs.43" inputs="//@arcs.45"/>
+  <places name="p107_3" outputs="//@arcs.44" inputs="//@arcs.46"/>
+  <places name="p108_1" outputs="//@arcs.48" inputs="//@arcs.53"/>
+  <places name="p108_2" outputs="//@arcs.49" inputs="//@arcs.51"/>
+  <places name="p108_3" outputs="//@arcs.50" inputs="//@arcs.52"/>
+  <places name="p109_1" outputs="//@arcs.54" inputs="//@arcs.59"/>
+  <places name="p109_2" outputs="//@arcs.55" inputs="//@arcs.57"/>
+  <places name="p109_3" outputs="//@arcs.56" inputs="//@arcs.58"/>
+  <places name="p110_1" outputs="//@arcs.60" inputs="//@arcs.65"/>
+  <places name="p110_2" outputs="//@arcs.61" inputs="//@arcs.63"/>
+  <places name="p110_3" outputs="//@arcs.62" inputs="//@arcs.64"/>
+  <places name="p111_1" outputs="//@arcs.66" inputs="//@arcs.71"/>
+  <places name="p111_2" outputs="//@arcs.67" inputs="//@arcs.69"/>
+  <places name="p111_3" outputs="//@arcs.68" inputs="//@arcs.70"/>
+  <places name="p112_1" outputs="//@arcs.72" inputs="//@arcs.77"/>
+  <places name="p112_2" outputs="//@arcs.73" inputs="//@arcs.75"/>
+  <places name="p112_3" outputs="//@arcs.74" inputs="//@arcs.76"/>
+  <places name="p113_1" outputs="//@arcs.78" inputs="//@arcs.83"/>
+  <places name="p113_2" outputs="//@arcs.79" inputs="//@arcs.81"/>
+  <places name="p113_3" outputs="//@arcs.80" inputs="//@arcs.82"/>
+  <places name="p114_1" outputs="//@arcs.84" inputs="//@arcs.89"/>
+  <places name="p114_2" outputs="//@arcs.85" inputs="//@arcs.87"/>
+  <places name="p114_3" outputs="//@arcs.86" inputs="//@arcs.88"/>
+  <places name="p115_1" outputs="//@arcs.90" inputs="//@arcs.95"/>
+  <places name="p115_2" outputs="//@arcs.91" inputs="//@arcs.93"/>
+  <places name="p115_3" outputs="//@arcs.92" inputs="//@arcs.94"/>
+  <places name="p116_1" outputs="//@arcs.96" inputs="//@arcs.101"/>
+  <places name="p116_2" outputs="//@arcs.97" inputs="//@arcs.99"/>
+  <places name="p116_3" outputs="//@arcs.98" inputs="//@arcs.100"/>
+  <places name="p117_1" outputs="//@arcs.102" inputs="//@arcs.107"/>
+  <places name="p117_2" outputs="//@arcs.103" inputs="//@arcs.105"/>
+  <places name="p117_3" outputs="//@arcs.104" inputs="//@arcs.106"/>
+  <places name="p118_1" outputs="//@arcs.108" inputs="//@arcs.113"/>
+  <places name="p118_2" outputs="//@arcs.109" inputs="//@arcs.111"/>
+  <places name="p118_3" outputs="//@arcs.110" inputs="//@arcs.112"/>
+  <places name="p119_1" outputs="//@arcs.114" inputs="//@arcs.119"/>
+  <places name="p119_2" outputs="//@arcs.115" inputs="//@arcs.117"/>
+  <places name="p119_3" outputs="//@arcs.116" inputs="//@arcs.118"/>
+  <places name="p130_1" outputs="//@arcs.120" inputs="//@arcs.125"/>
+  <places name="p130_2" outputs="//@arcs.121" inputs="//@arcs.123"/>
+  <places name="p130_3" outputs="//@arcs.122" inputs="//@arcs.124"/>
+  <places name="p131_1" outputs="//@arcs.126" inputs="//@arcs.131"/>
+  <places name="p131_2" outputs="//@arcs.127" inputs="//@arcs.129"/>
+  <places name="p131_3" outputs="//@arcs.128" inputs="//@arcs.130"/>
+  <places name="p132_1" outputs="//@arcs.132" inputs="//@arcs.137"/>
+  <places name="p132_2" outputs="//@arcs.133" inputs="//@arcs.135"/>
+  <places name="p132_3" outputs="//@arcs.134" inputs="//@arcs.136"/>
+  <places name="p133_1" outputs="//@arcs.138" inputs="//@arcs.143"/>
+  <places name="p133_2" outputs="//@arcs.139" inputs="//@arcs.141"/>
+  <places name="p133_3" outputs="//@arcs.140" inputs="//@arcs.142"/>
+  <places name="p134_1" outputs="//@arcs.144" inputs="//@arcs.149"/>
+  <places name="p134_2" outputs="//@arcs.145" inputs="//@arcs.147"/>
+  <places name="p134_3" outputs="//@arcs.146" inputs="//@arcs.148"/>
+  <places name="p135_1" outputs="//@arcs.150" inputs="//@arcs.155"/>
+  <places name="p135_2" outputs="//@arcs.151" inputs="//@arcs.153"/>
+  <places name="p135_3" outputs="//@arcs.152" inputs="//@arcs.154"/>
+  <places name="p136_1" outputs="//@arcs.156" inputs="//@arcs.161"/>
+  <places name="p136_2" outputs="//@arcs.157" inputs="//@arcs.159"/>
+  <places name="p136_3" outputs="//@arcs.158" inputs="//@arcs.160"/>
+  <places name="p137_1" outputs="//@arcs.162" inputs="//@arcs.167"/>
+  <places name="p137_2" outputs="//@arcs.163" inputs="//@arcs.165"/>
+  <places name="p137_3" outputs="//@arcs.164" inputs="//@arcs.166"/>
+  <places name="p138_1" outputs="//@arcs.168" inputs="//@arcs.173"/>
+  <places name="p138_2" outputs="//@arcs.169" inputs="//@arcs.171"/>
+  <places name="p138_3" outputs="//@arcs.170" inputs="//@arcs.172"/>
+  <places name="p139_1" outputs="//@arcs.174" inputs="//@arcs.179"/>
+  <places name="p139_2" outputs="//@arcs.175" inputs="//@arcs.177"/>
+  <places name="p139_3" outputs="//@arcs.176" inputs="//@arcs.178"/>
+  <places name="p120_1" outputs="//@arcs.180" inputs="//@arcs.185"/>
+  <places name="p120_2" outputs="//@arcs.181" inputs="//@arcs.183"/>
+  <places name="p120_3" outputs="//@arcs.182" inputs="//@arcs.184"/>
+  <places name="p121_1" outputs="//@arcs.186" inputs="//@arcs.191"/>
+  <places name="p121_2" outputs="//@arcs.187" inputs="//@arcs.189"/>
+  <places name="p121_3" outputs="//@arcs.188" inputs="//@arcs.190"/>
+  <places name="p122_1" outputs="//@arcs.192" inputs="//@arcs.197"/>
+  <places name="p122_2" outputs="//@arcs.193" inputs="//@arcs.195"/>
+  <places name="p122_3" outputs="//@arcs.194" inputs="//@arcs.196"/>
+  <places name="p123_1" outputs="//@arcs.198" inputs="//@arcs.203"/>
+  <places name="p123_2" outputs="//@arcs.199" inputs="//@arcs.201"/>
+  <places name="p123_3" outputs="//@arcs.200" inputs="//@arcs.202"/>
+  <places name="p124_1" outputs="//@arcs.204" inputs="//@arcs.209"/>
+  <places name="p124_2" outputs="//@arcs.205" inputs="//@arcs.207"/>
+  <places name="p124_3" outputs="//@arcs.206" inputs="//@arcs.208"/>
+  <places name="p125_1" outputs="//@arcs.210" inputs="//@arcs.215"/>
+  <places name="p125_2" outputs="//@arcs.211" inputs="//@arcs.213"/>
+  <places name="p125_3" outputs="//@arcs.212" inputs="//@arcs.214"/>
+  <places name="p126_1" outputs="//@arcs.216" inputs="//@arcs.221"/>
+  <places name="p126_2" outputs="//@arcs.217" inputs="//@arcs.219"/>
+  <places name="p126_3" outputs="//@arcs.218" inputs="//@arcs.220"/>
+  <places name="p127_1" outputs="//@arcs.222" inputs="//@arcs.227"/>
+  <places name="p127_2" outputs="//@arcs.223" inputs="//@arcs.225"/>
+  <places name="p127_3" outputs="//@arcs.224" inputs="//@arcs.226"/>
+  <places name="p128_1" outputs="//@arcs.228" inputs="//@arcs.233"/>
+  <places name="p128_2" outputs="//@arcs.229" inputs="//@arcs.231"/>
+  <places name="p128_3" outputs="//@arcs.230" inputs="//@arcs.232"/>
+  <places name="p129_1" outputs="//@arcs.234" inputs="//@arcs.239"/>
+  <places name="p129_2" outputs="//@arcs.235" inputs="//@arcs.237"/>
+  <places name="p129_3" outputs="//@arcs.236" inputs="//@arcs.238"/>
+  <places name="p000_1" outputs="//@arcs.240" inputs="//@arcs.245"/>
+  <places name="p000_2" outputs="//@arcs.241" inputs="//@arcs.243"/>
+  <places name="p000_3" outputs="//@arcs.242" inputs="//@arcs.244"/>
+  <places name="p001_1" outputs="//@arcs.246" inputs="//@arcs.251"/>
+  <places name="p001_2" outputs="//@arcs.247" inputs="//@arcs.249"/>
+  <places name="p001_3" outputs="//@arcs.248" inputs="//@arcs.250"/>
+  <places name="p002_1" outputs="//@arcs.252" inputs="//@arcs.257"/>
+  <places name="p002_2" outputs="//@arcs.253" inputs="//@arcs.255"/>
+  <places name="p002_3" outputs="//@arcs.254" inputs="//@arcs.256"/>
+  <places name="p003_1" outputs="//@arcs.258" inputs="//@arcs.263"/>
+  <places name="p003_2" outputs="//@arcs.259" inputs="//@arcs.261"/>
+  <places name="p003_3" outputs="//@arcs.260" inputs="//@arcs.262"/>
+  <places name="p004_1" outputs="//@arcs.264" inputs="//@arcs.269"/>
+  <places name="p004_2" outputs="//@arcs.265" inputs="//@arcs.267"/>
+  <places name="p004_3" outputs="//@arcs.266" inputs="//@arcs.268"/>
+  <places name="p005_1" outputs="//@arcs.270" inputs="//@arcs.275"/>
+  <places name="p005_2" outputs="//@arcs.271" inputs="//@arcs.273"/>
+  <places name="p005_3" outputs="//@arcs.272" inputs="//@arcs.274"/>
+  <places name="p006_1" outputs="//@arcs.276" inputs="//@arcs.281"/>
+  <places name="p006_2" outputs="//@arcs.277" inputs="//@arcs.279"/>
+  <places name="p006_3" outputs="//@arcs.278" inputs="//@arcs.280"/>
+  <places name="p007_1" outputs="//@arcs.282" inputs="//@arcs.287"/>
+  <places name="p007_2" outputs="//@arcs.283" inputs="//@arcs.285"/>
+  <places name="p007_3" outputs="//@arcs.284" inputs="//@arcs.286"/>
+  <places name="p008_1" outputs="//@arcs.288" inputs="//@arcs.293"/>
+  <places name="p008_2" outputs="//@arcs.289" inputs="//@arcs.291"/>
+  <places name="p008_3" outputs="//@arcs.290" inputs="//@arcs.292"/>
+  <places name="p009_1" outputs="//@arcs.294" inputs="//@arcs.299"/>
+  <places name="p009_2" outputs="//@arcs.295" inputs="//@arcs.297"/>
+  <places name="p009_3" outputs="//@arcs.296" inputs="//@arcs.298"/>
+  <places name="p010_1" outputs="//@arcs.300" inputs="//@arcs.305"/>
+  <places name="p010_2" outputs="//@arcs.301" inputs="//@arcs.303"/>
+  <places name="p010_3" outputs="//@arcs.302" inputs="//@arcs.304"/>
+  <places name="p011_1" outputs="//@arcs.306" inputs="//@arcs.311"/>
+  <places name="p011_2" outputs="//@arcs.307" inputs="//@arcs.309"/>
+  <places name="p011_3" outputs="//@arcs.308" inputs="//@arcs.310"/>
+  <places name="p012_1" outputs="//@arcs.312" inputs="//@arcs.317"/>
+  <places name="p012_2" outputs="//@arcs.313" inputs="//@arcs.315"/>
+  <places name="p012_3" outputs="//@arcs.314" inputs="//@arcs.316"/>
+  <places name="p013_1" outputs="//@arcs.318" inputs="//@arcs.323"/>
+  <places name="p013_2" outputs="//@arcs.319" inputs="//@arcs.321"/>
+  <places name="p013_3" outputs="//@arcs.320" inputs="//@arcs.322"/>
+  <places name="p014_1" outputs="//@arcs.324" inputs="//@arcs.329"/>
+  <places name="p014_2" outputs="//@arcs.325" inputs="//@arcs.327"/>
+  <places name="p014_3" outputs="//@arcs.326" inputs="//@arcs.328"/>
+  <places name="p015_1" outputs="//@arcs.330" inputs="//@arcs.335"/>
+  <places name="p015_2" outputs="//@arcs.331" inputs="//@arcs.333"/>
+  <places name="p015_3" outputs="//@arcs.332" inputs="//@arcs.334"/>
+  <places name="p016_1" outputs="//@arcs.336" inputs="//@arcs.341"/>
+  <places name="p016_2" outputs="//@arcs.337" inputs="//@arcs.339"/>
+  <places name="p016_3" outputs="//@arcs.338" inputs="//@arcs.340"/>
+  <places name="p017_1" outputs="//@arcs.342" inputs="//@arcs.347"/>
+  <places name="p017_2" outputs="//@arcs.343" inputs="//@arcs.345"/>
+  <places name="p017_3" outputs="//@arcs.344" inputs="//@arcs.346"/>
+  <places name="p018_1" outputs="//@arcs.348" inputs="//@arcs.353"/>
+  <places name="p018_2" outputs="//@arcs.349" inputs="//@arcs.351"/>
+  <places name="p018_3" outputs="//@arcs.350" inputs="//@arcs.352"/>
+  <places name="p019_1" outputs="//@arcs.354" inputs="//@arcs.359"/>
+  <places name="p019_2" outputs="//@arcs.355" inputs="//@arcs.357"/>
+  <places name="p019_3" outputs="//@arcs.356" inputs="//@arcs.358"/>
+  <places name="p030_1" outputs="//@arcs.360" inputs="//@arcs.365"/>
+  <places name="p030_2" outputs="//@arcs.361" inputs="//@arcs.363"/>
+  <places name="p030_3" outputs="//@arcs.362" inputs="//@arcs.364"/>
+  <places name="p031_1" outputs="//@arcs.366" inputs="//@arcs.371"/>
+  <places name="p031_2" outputs="//@arcs.367" inputs="//@arcs.369"/>
+  <places name="p031_3" outputs="//@arcs.368" inputs="//@arcs.370"/>
+  <places name="p032_1" outputs="//@arcs.372" inputs="//@arcs.377"/>
+  <places name="p032_2" outputs="//@arcs.373" inputs="//@arcs.375"/>
+  <places name="p032_3" outputs="//@arcs.374" inputs="//@arcs.376"/>
+  <places name="p033_1" outputs="//@arcs.378" inputs="//@arcs.383"/>
+  <places name="p033_2" outputs="//@arcs.379" inputs="//@arcs.381"/>
+  <places name="p033_3" outputs="//@arcs.380" inputs="//@arcs.382"/>
+  <places name="p034_1" outputs="//@arcs.384" inputs="//@arcs.389"/>
+  <places name="p034_2" outputs="//@arcs.385" inputs="//@arcs.387"/>
+  <places name="p034_3" outputs="//@arcs.386" inputs="//@arcs.388"/>
+  <places name="p035_1" outputs="//@arcs.390" inputs="//@arcs.395"/>
+  <places name="p035_2" outputs="//@arcs.391" inputs="//@arcs.393"/>
+  <places name="p035_3" outputs="//@arcs.392" inputs="//@arcs.394"/>
+  <places name="p036_1" outputs="//@arcs.396" inputs="//@arcs.401"/>
+  <places name="p036_2" outputs="//@arcs.397" inputs="//@arcs.399"/>
+  <places name="p036_3" outputs="//@arcs.398" inputs="//@arcs.400"/>
+  <places name="p037_1" outputs="//@arcs.402" inputs="//@arcs.407"/>
+  <places name="p037_2" outputs="//@arcs.403" inputs="//@arcs.405"/>
+  <places name="p037_3" outputs="//@arcs.404" inputs="//@arcs.406"/>
+  <places name="p038_1" outputs="//@arcs.408" inputs="//@arcs.413"/>
+  <places name="p038_2" outputs="//@arcs.409" inputs="//@arcs.411"/>
+  <places name="p038_3" outputs="//@arcs.410" inputs="//@arcs.412"/>
+  <places name="p039_1" outputs="//@arcs.414" inputs="//@arcs.419"/>
+  <places name="p039_2" outputs="//@arcs.415" inputs="//@arcs.417"/>
+  <places name="p039_3" outputs="//@arcs.416" inputs="//@arcs.418"/>
+  <places name="p020_1" outputs="//@arcs.420" inputs="//@arcs.425"/>
+  <places name="p020_2" outputs="//@arcs.421" inputs="//@arcs.423"/>
+  <places name="p020_3" outputs="//@arcs.422" inputs="//@arcs.424"/>
+  <places name="p021_1" outputs="//@arcs.426" inputs="//@arcs.431"/>
+  <places name="p021_2" outputs="//@arcs.427" inputs="//@arcs.429"/>
+  <places name="p021_3" outputs="//@arcs.428" inputs="//@arcs.430"/>
+  <places name="p022_1" outputs="//@arcs.432" inputs="//@arcs.437"/>
+  <places name="p022_2" outputs="//@arcs.433" inputs="//@arcs.435"/>
+  <places name="p022_3" outputs="//@arcs.434" inputs="//@arcs.436"/>
+  <places name="p023_1" outputs="//@arcs.438" inputs="//@arcs.443"/>
+  <places name="p023_2" outputs="//@arcs.439" inputs="//@arcs.441"/>
+  <places name="p023_3" outputs="//@arcs.440" inputs="//@arcs.442"/>
+  <places name="p024_1" outputs="//@arcs.444" inputs="//@arcs.449"/>
+  <places name="p024_2" outputs="//@arcs.445" inputs="//@arcs.447"/>
+  <places name="p024_3" outputs="//@arcs.446" inputs="//@arcs.448"/>
+  <places name="p025_1" outputs="//@arcs.450" inputs="//@arcs.455"/>
+  <places name="p025_2" outputs="//@arcs.451" inputs="//@arcs.453"/>
+  <places name="p025_3" outputs="//@arcs.452" inputs="//@arcs.454"/>
+  <places name="p026_1" outputs="//@arcs.456" inputs="//@arcs.461"/>
+  <places name="p026_2" outputs="//@arcs.457" inputs="//@arcs.459"/>
+  <places name="p026_3" outputs="//@arcs.458" inputs="//@arcs.460"/>
+  <places name="p027_1" outputs="//@arcs.462" inputs="//@arcs.467"/>
+  <places name="p027_2" outputs="//@arcs.463" inputs="//@arcs.465"/>
+  <places name="p027_3" outputs="//@arcs.464" inputs="//@arcs.466"/>
+  <places name="p028_1" outputs="//@arcs.468" inputs="//@arcs.473"/>
+  <places name="p028_2" outputs="//@arcs.469" inputs="//@arcs.471"/>
+  <places name="p028_3" outputs="//@arcs.470" inputs="//@arcs.472"/>
+  <places name="p029_1" outputs="//@arcs.474" inputs="//@arcs.479"/>
+  <places name="p029_2" outputs="//@arcs.475" inputs="//@arcs.477"/>
+  <places name="p029_3" outputs="//@arcs.476" inputs="//@arcs.478"/>
+  <trans name="t100_1" inputs="//@arcs.0" outputs="//@arcs.3"/>
+  <trans name="t100_2" inputs="//@arcs.1" outputs="//@arcs.4"/>
+  <trans name="t100_3" inputs="//@arcs.2" outputs="//@arcs.5"/>
+  <trans name="t101_1" inputs="//@arcs.6" outputs="//@arcs.9"/>
+  <trans name="t101_2" inputs="//@arcs.7" outputs="//@arcs.10"/>
+  <trans name="t101_3" inputs="//@arcs.8" outputs="//@arcs.11"/>
+  <trans name="t102_1" inputs="//@arcs.12" outputs="//@arcs.15"/>
+  <trans name="t102_2" inputs="//@arcs.13" outputs="//@arcs.16"/>
+  <trans name="t102_3" inputs="//@arcs.14" outputs="//@arcs.17"/>
+  <trans name="t103_1" inputs="//@arcs.18" outputs="//@arcs.21"/>
+  <trans name="t103_2" inputs="//@arcs.19" outputs="//@arcs.22"/>
+  <trans name="t103_3" inputs="//@arcs.20" outputs="//@arcs.23"/>
+  <trans name="t104_1" inputs="//@arcs.24" outputs="//@arcs.27"/>
+  <trans name="t104_2" inputs="//@arcs.25" outputs="//@arcs.28"/>
+  <trans name="t104_3" inputs="//@arcs.26" outputs="//@arcs.29"/>
+  <trans name="t105_1" inputs="//@arcs.30" outputs="//@arcs.33"/>
+  <trans name="t105_2" inputs="//@arcs.31" outputs="//@arcs.34"/>
+  <trans name="t105_3" inputs="//@arcs.32" outputs="//@arcs.35"/>
+  <trans name="t106_1" inputs="//@arcs.36" outputs="//@arcs.39"/>
+  <trans name="t106_2" inputs="//@arcs.37" outputs="//@arcs.40"/>
+  <trans name="t106_3" inputs="//@arcs.38" outputs="//@arcs.41"/>
+  <trans name="t107_1" inputs="//@arcs.42" outputs="//@arcs.45"/>
+  <trans name="t107_2" inputs="//@arcs.43" outputs="//@arcs.46"/>
+  <trans name="t107_3" inputs="//@arcs.44" outputs="//@arcs.47"/>
+  <trans name="t108_1" inputs="//@arcs.48" outputs="//@arcs.51"/>
+  <trans name="t108_2" inputs="//@arcs.49" outputs="//@arcs.52"/>
+  <trans name="t108_3" inputs="//@arcs.50" outputs="//@arcs.53"/>
+  <trans name="t109_1" inputs="//@arcs.54" outputs="//@arcs.57"/>
+  <trans name="t109_2" inputs="//@arcs.55" outputs="//@arcs.58"/>
+  <trans name="t109_3" inputs="//@arcs.56" outputs="//@arcs.59"/>
+  <trans name="t110_1" inputs="//@arcs.60" outputs="//@arcs.63"/>
+  <trans name="t110_2" inputs="//@arcs.61" outputs="//@arcs.64"/>
+  <trans name="t110_3" inputs="//@arcs.62" outputs="//@arcs.65"/>
+  <trans name="t111_1" inputs="//@arcs.66" outputs="//@arcs.69"/>
+  <trans name="t111_2" inputs="//@arcs.67" outputs="//@arcs.70"/>
+  <trans name="t111_3" inputs="//@arcs.68" outputs="//@arcs.71"/>
+  <trans name="t112_1" inputs="//@arcs.72" outputs="//@arcs.75"/>
+  <trans name="t112_2" inputs="//@arcs.73" outputs="//@arcs.76"/>
+  <trans name="t112_3" inputs="//@arcs.74" outputs="//@arcs.77"/>
+  <trans name="t113_1" inputs="//@arcs.78" outputs="//@arcs.81"/>
+  <trans name="t113_2" inputs="//@arcs.79" outputs="//@arcs.82"/>
+  <trans name="t113_3" inputs="//@arcs.80" outputs="//@arcs.83"/>
+  <trans name="t114_1" inputs="//@arcs.84" outputs="//@arcs.87"/>
+  <trans name="t114_2" inputs="//@arcs.85" outputs="//@arcs.88"/>
+  <trans name="t114_3" inputs="//@arcs.86" outputs="//@arcs.89"/>
+  <trans name="t115_1" inputs="//@arcs.90" outputs="//@arcs.93"/>
+  <trans name="t115_2" inputs="//@arcs.91" outputs="//@arcs.94"/>
+  <trans name="t115_3" inputs="//@arcs.92" outputs="//@arcs.95"/>
+  <trans name="t116_1" inputs="//@arcs.96" outputs="//@arcs.99"/>
+  <trans name="t116_2" inputs="//@arcs.97" outputs="//@arcs.100"/>
+  <trans name="t116_3" inputs="//@arcs.98" outputs="//@arcs.101"/>
+  <trans name="t117_1" inputs="//@arcs.102" outputs="//@arcs.105"/>
+  <trans name="t117_2" inputs="//@arcs.103" outputs="//@arcs.106"/>
+  <trans name="t117_3" inputs="//@arcs.104" outputs="//@arcs.107"/>
+  <trans name="t118_1" inputs="//@arcs.108" outputs="//@arcs.111"/>
+  <trans name="t118_2" inputs="//@arcs.109" outputs="//@arcs.112"/>
+  <trans name="t118_3" inputs="//@arcs.110" outputs="//@arcs.113"/>
+  <trans name="t119_1" inputs="//@arcs.114" outputs="//@arcs.117"/>
+  <trans name="t119_2" inputs="//@arcs.115" outputs="//@arcs.118"/>
+  <trans name="t119_3" inputs="//@arcs.116" outputs="//@arcs.119"/>
+  <trans name="t130_1" inputs="//@arcs.120" outputs="//@arcs.123"/>
+  <trans name="t130_2" inputs="//@arcs.121" outputs="//@arcs.124"/>
+  <trans name="t130_3" inputs="//@arcs.122" outputs="//@arcs.125"/>
+  <trans name="t131_1" inputs="//@arcs.126" outputs="//@arcs.129"/>
+  <trans name="t131_2" inputs="//@arcs.127" outputs="//@arcs.130"/>
+  <trans name="t131_3" inputs="//@arcs.128" outputs="//@arcs.131"/>
+  <trans name="t132_1" inputs="//@arcs.132" outputs="//@arcs.135"/>
+  <trans name="t132_2" inputs="//@arcs.133" outputs="//@arcs.136"/>
+  <trans name="t132_3" inputs="//@arcs.134" outputs="//@arcs.137"/>
+  <trans name="t133_1" inputs="//@arcs.138" outputs="//@arcs.141"/>
+  <trans name="t133_2" inputs="//@arcs.139" outputs="//@arcs.142"/>
+  <trans name="t133_3" inputs="//@arcs.140" outputs="//@arcs.143"/>
+  <trans name="t134_1" inputs="//@arcs.144" outputs="//@arcs.147"/>
+  <trans name="t134_2" inputs="//@arcs.145" outputs="//@arcs.148"/>
+  <trans name="t134_3" inputs="//@arcs.146" outputs="//@arcs.149"/>
+  <trans name="t135_1" inputs="//@arcs.150" outputs="//@arcs.153"/>
+  <trans name="t135_2" inputs="//@arcs.151" outputs="//@arcs.154"/>
+  <trans name="t135_3" inputs="//@arcs.152" outputs="//@arcs.155"/>
+  <trans name="t136_1" inputs="//@arcs.156" outputs="//@arcs.159"/>
+  <trans name="t136_2" inputs="//@arcs.157" outputs="//@arcs.160"/>
+  <trans name="t136_3" inputs="//@arcs.158" outputs="//@arcs.161"/>
+  <trans name="t137_1" inputs="//@arcs.162" outputs="//@arcs.165"/>
+  <trans name="t137_2" inputs="//@arcs.163" outputs="//@arcs.166"/>
+  <trans name="t137_3" inputs="//@arcs.164" outputs="//@arcs.167"/>
+  <trans name="t138_1" inputs="//@arcs.168" outputs="//@arcs.171"/>
+  <trans name="t138_2" inputs="//@arcs.169" outputs="//@arcs.172"/>
+  <trans name="t138_3" inputs="//@arcs.170" outputs="//@arcs.173"/>
+  <trans name="t139_1" inputs="//@arcs.174" outputs="//@arcs.177"/>
+  <trans name="t139_2" inputs="//@arcs.175" outputs="//@arcs.178"/>
+  <trans name="t139_3" inputs="//@arcs.176" outputs="//@arcs.179"/>
+  <trans name="t120_1" inputs="//@arcs.180" outputs="//@arcs.183"/>
+  <trans name="t120_2" inputs="//@arcs.181" outputs="//@arcs.184"/>
+  <trans name="t120_3" inputs="//@arcs.182" outputs="//@arcs.185"/>
+  <trans name="t121_1" inputs="//@arcs.186" outputs="//@arcs.189"/>
+  <trans name="t121_2" inputs="//@arcs.187" outputs="//@arcs.190"/>
+  <trans name="t121_3" inputs="//@arcs.188" outputs="//@arcs.191"/>
+  <trans name="t122_1" inputs="//@arcs.192" outputs="//@arcs.195"/>
+  <trans name="t122_2" inputs="//@arcs.193" outputs="//@arcs.196"/>
+  <trans name="t122_3" inputs="//@arcs.194" outputs="//@arcs.197"/>
+  <trans name="t123_1" inputs="//@arcs.198" outputs="//@arcs.201"/>
+  <trans name="t123_2" inputs="//@arcs.199" outputs="//@arcs.202"/>
+  <trans name="t123_3" inputs="//@arcs.200" outputs="//@arcs.203"/>
+  <trans name="t124_1" inputs="//@arcs.204" outputs="//@arcs.207"/>
+  <trans name="t124_2" inputs="//@arcs.205" outputs="//@arcs.208"/>
+  <trans name="t124_3" inputs="//@arcs.206" outputs="//@arcs.209"/>
+  <trans name="t125_1" inputs="//@arcs.210" outputs="//@arcs.213"/>
+  <trans name="t125_2" inputs="//@arcs.211" outputs="//@arcs.214"/>
+  <trans name="t125_3" inputs="//@arcs.212" outputs="//@arcs.215"/>
+  <trans name="t126_1" inputs="//@arcs.216" outputs="//@arcs.219"/>
+  <trans name="t126_2" inputs="//@arcs.217" outputs="//@arcs.220"/>
+  <trans name="t126_3" inputs="//@arcs.218" outputs="//@arcs.221"/>
+  <trans name="t127_1" inputs="//@arcs.222" outputs="//@arcs.225"/>
+  <trans name="t127_2" inputs="//@arcs.223" outputs="//@arcs.226"/>
+  <trans name="t127_3" inputs="//@arcs.224" outputs="//@arcs.227"/>
+  <trans name="t128_1" inputs="//@arcs.228" outputs="//@arcs.231"/>
+  <trans name="t128_2" inputs="//@arcs.229" outputs="//@arcs.232"/>
+  <trans name="t128_3" inputs="//@arcs.230" outputs="//@arcs.233"/>
+  <trans name="t129_1" inputs="//@arcs.234" outputs="//@arcs.237"/>
+  <trans name="t129_2" inputs="//@arcs.235" outputs="//@arcs.238"/>
+  <trans name="t129_3" inputs="//@arcs.236" outputs="//@arcs.239"/>
+  <trans name="t000_1" inputs="//@arcs.240" outputs="//@arcs.243"/>
+  <trans name="t000_2" inputs="//@arcs.241" outputs="//@arcs.244"/>
+  <trans name="t000_3" inputs="//@arcs.242" outputs="//@arcs.245"/>
+  <trans name="t001_1" inputs="//@arcs.246" outputs="//@arcs.249"/>
+  <trans name="t001_2" inputs="//@arcs.247" outputs="//@arcs.250"/>
+  <trans name="t001_3" inputs="//@arcs.248" outputs="//@arcs.251"/>
+  <trans name="t002_1" inputs="//@arcs.252" outputs="//@arcs.255"/>
+  <trans name="t002_2" inputs="//@arcs.253" outputs="//@arcs.256"/>
+  <trans name="t002_3" inputs="//@arcs.254" outputs="//@arcs.257"/>
+  <trans name="t003_1" inputs="//@arcs.258" outputs="//@arcs.261"/>
+  <trans name="t003_2" inputs="//@arcs.259" outputs="//@arcs.262"/>
+  <trans name="t003_3" inputs="//@arcs.260" outputs="//@arcs.263"/>
+  <trans name="t004_1" inputs="//@arcs.264" outputs="//@arcs.267"/>
+  <trans name="t004_2" inputs="//@arcs.265" outputs="//@arcs.268"/>
+  <trans name="t004_3" inputs="//@arcs.266" outputs="//@arcs.269"/>
+  <trans name="t005_1" inputs="//@arcs.270" outputs="//@arcs.273"/>
+  <trans name="t005_2" inputs="//@arcs.271" outputs="//@arcs.274"/>
+  <trans name="t005_3" inputs="//@arcs.272" outputs="//@arcs.275"/>
+  <trans name="t006_1" inputs="//@arcs.276" outputs="//@arcs.279"/>
+  <trans name="t006_2" inputs="//@arcs.277" outputs="//@arcs.280"/>
+  <trans name="t006_3" inputs="//@arcs.278" outputs="//@arcs.281"/>
+  <trans name="t007_1" inputs="//@arcs.282" outputs="//@arcs.285"/>
+  <trans name="t007_2" inputs="//@arcs.283" outputs="//@arcs.286"/>
+  <trans name="t007_3" inputs="//@arcs.284" outputs="//@arcs.287"/>
+  <trans name="t008_1" inputs="//@arcs.288" outputs="//@arcs.291"/>
+  <trans name="t008_2" inputs="//@arcs.289" outputs="//@arcs.292"/>
+  <trans name="t008_3" inputs="//@arcs.290" outputs="//@arcs.293"/>
+  <trans name="t009_1" inputs="//@arcs.294" outputs="//@arcs.297"/>
+  <trans name="t009_2" inputs="//@arcs.295" outputs="//@arcs.298"/>
+  <trans name="t009_3" inputs="//@arcs.296" outputs="//@arcs.299"/>
+  <trans name="t010_1" inputs="//@arcs.300" outputs="//@arcs.303"/>
+  <trans name="t010_2" inputs="//@arcs.301" outputs="//@arcs.304"/>
+  <trans name="t010_3" inputs="//@arcs.302" outputs="//@arcs.305"/>
+  <trans name="t011_1" inputs="//@arcs.306" outputs="//@arcs.309"/>
+  <trans name="t011_2" inputs="//@arcs.307" outputs="//@arcs.310"/>
+  <trans name="t011_3" inputs="//@arcs.308" outputs="//@arcs.311"/>
+  <trans name="t012_1" inputs="//@arcs.312" outputs="//@arcs.315"/>
+  <trans name="t012_2" inputs="//@arcs.313" outputs="//@arcs.316"/>
+  <trans name="t012_3" inputs="//@arcs.314" outputs="//@arcs.317"/>
+  <trans name="t013_1" inputs="//@arcs.318" outputs="//@arcs.321"/>
+  <trans name="t013_2" inputs="//@arcs.319" outputs="//@arcs.322"/>
+  <trans name="t013_3" inputs="//@arcs.320" outputs="//@arcs.323"/>
+  <trans name="t014_1" inputs="//@arcs.324" outputs="//@arcs.327"/>
+  <trans name="t014_2" inputs="//@arcs.325" outputs="//@arcs.328"/>
+  <trans name="t014_3" inputs="//@arcs.326" outputs="//@arcs.329"/>
+  <trans name="t015_1" inputs="//@arcs.330" outputs="//@arcs.333"/>
+  <trans name="t015_2" inputs="//@arcs.331" outputs="//@arcs.334"/>
+  <trans name="t015_3" inputs="//@arcs.332" outputs="//@arcs.335"/>
+  <trans name="t016_1" inputs="//@arcs.336" outputs="//@arcs.339"/>
+  <trans name="t016_2" inputs="//@arcs.337" outputs="//@arcs.340"/>
+  <trans name="t016_3" inputs="//@arcs.338" outputs="//@arcs.341"/>
+  <trans name="t017_1" inputs="//@arcs.342" outputs="//@arcs.345"/>
+  <trans name="t017_2" inputs="//@arcs.343" outputs="//@arcs.346"/>
+  <trans name="t017_3" inputs="//@arcs.344" outputs="//@arcs.347"/>
+  <trans name="t018_1" inputs="//@arcs.348" outputs="//@arcs.351"/>
+  <trans name="t018_2" inputs="//@arcs.349" outputs="//@arcs.352"/>
+  <trans name="t018_3" inputs="//@arcs.350" outputs="//@arcs.353"/>
+  <trans name="t019_1" inputs="//@arcs.354" outputs="//@arcs.357"/>
+  <trans name="t019_2" inputs="//@arcs.355" outputs="//@arcs.358"/>
+  <trans name="t019_3" inputs="//@arcs.356" outputs="//@arcs.359"/>
+  <trans name="t030_1" inputs="//@arcs.360" outputs="//@arcs.363"/>
+  <trans name="t030_2" inputs="//@arcs.361" outputs="//@arcs.364"/>
+  <trans name="t030_3" inputs="//@arcs.362" outputs="//@arcs.365"/>
+  <trans name="t031_1" inputs="//@arcs.366" outputs="//@arcs.369"/>
+  <trans name="t031_2" inputs="//@arcs.367" outputs="//@arcs.370"/>
+  <trans name="t031_3" inputs="//@arcs.368" outputs="//@arcs.371"/>
+  <trans name="t032_1" inputs="//@arcs.372" outputs="//@arcs.375"/>
+  <trans name="t032_2" inputs="//@arcs.373" outputs="//@arcs.376"/>
+  <trans name="t032_3" inputs="//@arcs.374" outputs="//@arcs.377"/>
+  <trans name="t033_1" inputs="//@arcs.378" outputs="//@arcs.381"/>
+  <trans name="t033_2" inputs="//@arcs.379" outputs="//@arcs.382"/>
+  <trans name="t033_3" inputs="//@arcs.380" outputs="//@arcs.383"/>
+  <trans name="t034_1" inputs="//@arcs.384" outputs="//@arcs.387"/>
+  <trans name="t034_2" inputs="//@arcs.385" outputs="//@arcs.388"/>
+  <trans name="t034_3" inputs="//@arcs.386" outputs="//@arcs.389"/>
+  <trans name="t035_1" inputs="//@arcs.390" outputs="//@arcs.393"/>
+  <trans name="t035_2" inputs="//@arcs.391" outputs="//@arcs.394"/>
+  <trans name="t035_3" inputs="//@arcs.392" outputs="//@arcs.395"/>
+  <trans name="t036_1" inputs="//@arcs.396" outputs="//@arcs.399"/>
+  <trans name="t036_2" inputs="//@arcs.397" outputs="//@arcs.400"/>
+  <trans name="t036_3" inputs="//@arcs.398" outputs="//@arcs.401"/>
+  <trans name="t037_1" inputs="//@arcs.402" outputs="//@arcs.405"/>
+  <trans name="t037_2" inputs="//@arcs.403" outputs="//@arcs.406"/>
+  <trans name="t037_3" inputs="//@arcs.404" outputs="//@arcs.407"/>
+  <trans name="t038_1" inputs="//@arcs.408" outputs="//@arcs.411"/>
+  <trans name="t038_2" inputs="//@arcs.409" outputs="//@arcs.412"/>
+  <trans name="t038_3" inputs="//@arcs.410" outputs="//@arcs.413"/>
+  <trans name="t039_1" inputs="//@arcs.414" outputs="//@arcs.417"/>
+  <trans name="t039_2" inputs="//@arcs.415" outputs="//@arcs.418"/>
+  <trans name="t039_3" inputs="//@arcs.416" outputs="//@arcs.419"/>
+  <trans name="t020_1" inputs="//@arcs.420" outputs="//@arcs.423"/>
+  <trans name="t020_2" inputs="//@arcs.421" outputs="//@arcs.424"/>
+  <trans name="t020_3" inputs="//@arcs.422" outputs="//@arcs.425"/>
+  <trans name="t021_1" inputs="//@arcs.426" outputs="//@arcs.429"/>
+  <trans name="t021_2" inputs="//@arcs.427" outputs="//@arcs.430"/>
+  <trans name="t021_3" inputs="//@arcs.428" outputs="//@arcs.431"/>
+  <trans name="t022_1" inputs="//@arcs.432" outputs="//@arcs.435"/>
+  <trans name="t022_2" inputs="//@arcs.433" outputs="//@arcs.436"/>
+  <trans name="t022_3" inputs="//@arcs.434" outputs="//@arcs.437"/>
+  <trans name="t023_1" inputs="//@arcs.438" outputs="//@arcs.441"/>
+  <trans name="t023_2" inputs="//@arcs.439" outputs="//@arcs.442"/>
+  <trans name="t023_3" inputs="//@arcs.440" outputs="//@arcs.443"/>
+  <trans name="t024_1" inputs="//@arcs.444" outputs="//@arcs.447"/>
+  <trans name="t024_2" inputs="//@arcs.445" outputs="//@arcs.448"/>
+  <trans name="t024_3" inputs="//@arcs.446" outputs="//@arcs.449"/>
+  <trans name="t025_1" inputs="//@arcs.450" outputs="//@arcs.453"/>
+  <trans name="t025_2" inputs="//@arcs.451" outputs="//@arcs.454"/>
+  <trans name="t025_3" inputs="//@arcs.452" outputs="//@arcs.455"/>
+  <trans name="t026_1" inputs="//@arcs.456" outputs="//@arcs.459"/>
+  <trans name="t026_2" inputs="//@arcs.457" outputs="//@arcs.460"/>
+  <trans name="t026_3" inputs="//@arcs.458" outputs="//@arcs.461"/>
+  <trans name="t027_1" inputs="//@arcs.462" outputs="//@arcs.465"/>
+  <trans name="t027_2" inputs="//@arcs.463" outputs="//@arcs.466"/>
+  <trans name="t027_3" inputs="//@arcs.464" outputs="//@arcs.467"/>
+  <trans name="t028_1" inputs="//@arcs.468" outputs="//@arcs.471"/>
+  <trans name="t028_2" inputs="//@arcs.469" outputs="//@arcs.472"/>
+  <trans name="t028_3" inputs="//@arcs.470" outputs="//@arcs.473"/>
+  <trans name="t029_1" inputs="//@arcs.474" outputs="//@arcs.477"/>
+  <trans name="t029_2" inputs="//@arcs.475" outputs="//@arcs.478"/>
+  <trans name="t029_3" inputs="//@arcs.476" outputs="//@arcs.479"/>
+  <arcs xsi:type="ex:PTArc" name="a100_1" input="//@places.0" output="//@trans.0"/>
+  <arcs xsi:type="ex:PTArc" name="a100_2" input="//@places.1" output="//@trans.1"/>
+  <arcs xsi:type="ex:PTArc" name="a100_3" input="//@places.2" output="//@trans.2"/>
+  <arcs xsi:type="ex:TPArc" name="a100_4" input="//@trans.0" output="//@places.1"/>
+  <arcs xsi:type="ex:TPArc" name="a100_5" input="//@trans.1" output="//@places.2"/>
+  <arcs xsi:type="ex:TPArc" name="a100_6" input="//@trans.2" output="//@places.0"/>
+  <arcs xsi:type="ex:PTArc" name="a101_1" input="//@places.3" output="//@trans.3"/>
+  <arcs xsi:type="ex:PTArc" name="a101_2" input="//@places.4" output="//@trans.4"/>
+  <arcs xsi:type="ex:PTArc" name="a101_3" input="//@places.5" output="//@trans.5"/>
+  <arcs xsi:type="ex:TPArc" name="a101_4" input="//@trans.3" output="//@places.4"/>
+  <arcs xsi:type="ex:TPArc" name="a101_5" input="//@trans.4" output="//@places.5"/>
+  <arcs xsi:type="ex:TPArc" name="a101_6" input="//@trans.5" output="//@places.3"/>
+  <arcs xsi:type="ex:PTArc" name="a102_1" input="//@places.6" output="//@trans.6"/>
+  <arcs xsi:type="ex:PTArc" name="a102_2" input="//@places.7" output="//@trans.7"/>
+  <arcs xsi:type="ex:PTArc" name="a102_3" input="//@places.8" output="//@trans.8"/>
+  <arcs xsi:type="ex:TPArc" name="a102_4" input="//@trans.6" output="//@places.7"/>
+  <arcs xsi:type="ex:TPArc" name="a102_5" input="//@trans.7" output="//@places.8"/>
+  <arcs xsi:type="ex:TPArc" name="a102_6" input="//@trans.8" output="//@places.6"/>
+  <arcs xsi:type="ex:PTArc" name="a103_1" input="//@places.9" output="//@trans.9"/>
+  <arcs xsi:type="ex:PTArc" name="a103_2" input="//@places.10" output="//@trans.10"/>
+  <arcs xsi:type="ex:PTArc" name="a103_3" input="//@places.11" output="//@trans.11"/>
+  <arcs xsi:type="ex:TPArc" name="a103_4" input="//@trans.9" output="//@places.10"/>
+  <arcs xsi:type="ex:TPArc" name="a103_5" input="//@trans.10" output="//@places.11"/>
+  <arcs xsi:type="ex:TPArc" name="a103_6" input="//@trans.11" output="//@places.9"/>
+  <arcs xsi:type="ex:PTArc" name="a104_1" input="//@places.12" output="//@trans.12"/>
+  <arcs xsi:type="ex:PTArc" name="a104_2" input="//@places.13" output="//@trans.13"/>
+  <arcs xsi:type="ex:PTArc" name="a104_3" input="//@places.14" output="//@trans.14"/>
+  <arcs xsi:type="ex:TPArc" name="a104_4" input="//@trans.12" output="//@places.13"/>
+  <arcs xsi:type="ex:TPArc" name="a104_5" input="//@trans.13" output="//@places.14"/>
+  <arcs xsi:type="ex:TPArc" name="a104_6" input="//@trans.14" output="//@places.12"/>
+  <arcs xsi:type="ex:PTArc" name="a105_1" input="//@places.15" output="//@trans.15"/>
+  <arcs xsi:type="ex:PTArc" name="a105_2" input="//@places.16" output="//@trans.16"/>
+  <arcs xsi:type="ex:PTArc" name="a105_3" input="//@places.17" output="//@trans.17"/>
+  <arcs xsi:type="ex:TPArc" name="a105_4" input="//@trans.15" output="//@places.16"/>
+  <arcs xsi:type="ex:TPArc" name="a105_5" input="//@trans.16" output="//@places.17"/>
+  <arcs xsi:type="ex:TPArc" name="a105_6" input="//@trans.17" output="//@places.15"/>
+  <arcs xsi:type="ex:PTArc" name="a106_1" input="//@places.18" output="//@trans.18"/>
+  <arcs xsi:type="ex:PTArc" name="a106_2" input="//@places.19" output="//@trans.19"/>
+  <arcs xsi:type="ex:PTArc" name="a106_3" input="//@places.20" output="//@trans.20"/>
+  <arcs xsi:type="ex:TPArc" name="a106_4" input="//@trans.18" output="//@places.19"/>
+  <arcs xsi:type="ex:TPArc" name="a106_5" input="//@trans.19" output="//@places.20"/>
+  <arcs xsi:type="ex:TPArc" name="a106_6" input="//@trans.20" output="//@places.18"/>
+  <arcs xsi:type="ex:PTArc" name="a107_1" input="//@places.21" output="//@trans.21"/>
+  <arcs xsi:type="ex:PTArc" name="a107_2" input="//@places.22" output="//@trans.22"/>
+  <arcs xsi:type="ex:PTArc" name="a107_3" input="//@places.23" output="//@trans.23"/>
+  <arcs xsi:type="ex:TPArc" name="a107_4" input="//@trans.21" output="//@places.22"/>
+  <arcs xsi:type="ex:TPArc" name="a107_5" input="//@trans.22" output="//@places.23"/>
+  <arcs xsi:type="ex:TPArc" name="a107_6" input="//@trans.23" output="//@places.21"/>
+  <arcs xsi:type="ex:PTArc" name="a108_1" input="//@places.24" output="//@trans.24"/>
+  <arcs xsi:type="ex:PTArc" name="a108_2" input="//@places.25" output="//@trans.25"/>
+  <arcs xsi:type="ex:PTArc" name="a108_3" input="//@places.26" output="//@trans.26"/>
+  <arcs xsi:type="ex:TPArc" name="a108_4" input="//@trans.24" output="//@places.25"/>
+  <arcs xsi:type="ex:TPArc" name="a108_5" input="//@trans.25" output="//@places.26"/>
+  <arcs xsi:type="ex:TPArc" name="a108_6" input="//@trans.26" output="//@places.24"/>
+  <arcs xsi:type="ex:PTArc" name="a109_1" input="//@places.27" output="//@trans.27"/>
+  <arcs xsi:type="ex:PTArc" name="a109_2" input="//@places.28" output="//@trans.28"/>
+  <arcs xsi:type="ex:PTArc" name="a109_3" input="//@places.29" output="//@trans.29"/>
+  <arcs xsi:type="ex:TPArc" name="a109_4" input="//@trans.27" output="//@places.28"/>
+  <arcs xsi:type="ex:TPArc" name="a109_5" input="//@trans.28" output="//@places.29"/>
+  <arcs xsi:type="ex:TPArc" name="a109_6" input="//@trans.29" output="//@places.27"/>
+  <arcs xsi:type="ex:PTArc" name="a110_1" input="//@places.30" output="//@trans.30"/>
+  <arcs xsi:type="ex:PTArc" name="a110_2" input="//@places.31" output="//@trans.31"/>
+  <arcs xsi:type="ex:PTArc" name="a110_3" input="//@places.32" output="//@trans.32"/>
+  <arcs xsi:type="ex:TPArc" name="a110_4" input="//@trans.30" output="//@places.31"/>
+  <arcs xsi:type="ex:TPArc" name="a110_5" input="//@trans.31" output="//@places.32"/>
+  <arcs xsi:type="ex:TPArc" name="a110_6" input="//@trans.32" output="//@places.30"/>
+  <arcs xsi:type="ex:PTArc" name="a111_1" input="//@places.33" output="//@trans.33"/>
+  <arcs xsi:type="ex:PTArc" name="a111_2" input="//@places.34" output="//@trans.34"/>
+  <arcs xsi:type="ex:PTArc" name="a111_3" input="//@places.35" output="//@trans.35"/>
+  <arcs xsi:type="ex:TPArc" name="a111_4" input="//@trans.33" output="//@places.34"/>
+  <arcs xsi:type="ex:TPArc" name="a111_5" input="//@trans.34" output="//@places.35"/>
+  <arcs xsi:type="ex:TPArc" name="a111_6" input="//@trans.35" output="//@places.33"/>
+  <arcs xsi:type="ex:PTArc" name="a112_1" input="//@places.36" output="//@trans.36"/>
+  <arcs xsi:type="ex:PTArc" name="a112_2" input="//@places.37" output="//@trans.37"/>
+  <arcs xsi:type="ex:PTArc" name="a112_3" input="//@places.38" output="//@trans.38"/>
+  <arcs xsi:type="ex:TPArc" name="a112_4" input="//@trans.36" output="//@places.37"/>
+  <arcs xsi:type="ex:TPArc" name="a112_5" input="//@trans.37" output="//@places.38"/>
+  <arcs xsi:type="ex:TPArc" name="a112_6" input="//@trans.38" output="//@places.36"/>
+  <arcs xsi:type="ex:PTArc" name="a113_1" input="//@places.39" output="//@trans.39"/>
+  <arcs xsi:type="ex:PTArc" name="a113_2" input="//@places.40" output="//@trans.40"/>
+  <arcs xsi:type="ex:PTArc" name="a113_3" input="//@places.41" output="//@trans.41"/>
+  <arcs xsi:type="ex:TPArc" name="a113_4" input="//@trans.39" output="//@places.40"/>
+  <arcs xsi:type="ex:TPArc" name="a113_5" input="//@trans.40" output="//@places.41"/>
+  <arcs xsi:type="ex:TPArc" name="a113_6" input="//@trans.41" output="//@places.39"/>
+  <arcs xsi:type="ex:PTArc" name="a114_1" input="//@places.42" output="//@trans.42"/>
+  <arcs xsi:type="ex:PTArc" name="a114_2" input="//@places.43" output="//@trans.43"/>
+  <arcs xsi:type="ex:PTArc" name="a114_3" input="//@places.44" output="//@trans.44"/>
+  <arcs xsi:type="ex:TPArc" name="a114_4" input="//@trans.42" output="//@places.43"/>
+  <arcs xsi:type="ex:TPArc" name="a114_5" input="//@trans.43" output="//@places.44"/>
+  <arcs xsi:type="ex:TPArc" name="a114_6" input="//@trans.44" output="//@places.42"/>
+  <arcs xsi:type="ex:PTArc" name="a115_1" input="//@places.45" output="//@trans.45"/>
+  <arcs xsi:type="ex:PTArc" name="a115_2" input="//@places.46" output="//@trans.46"/>
+  <arcs xsi:type="ex:PTArc" name="a115_3" input="//@places.47" output="//@trans.47"/>
+  <arcs xsi:type="ex:TPArc" name="a115_4" input="//@trans.45" output="//@places.46"/>
+  <arcs xsi:type="ex:TPArc" name="a115_5" input="//@trans.46" output="//@places.47"/>
+  <arcs xsi:type="ex:TPArc" name="a115_6" input="//@trans.47" output="//@places.45"/>
+  <arcs xsi:type="ex:PTArc" name="a116_1" input="//@places.48" output="//@trans.48"/>
+  <arcs xsi:type="ex:PTArc" name="a116_2" input="//@places.49" output="//@trans.49"/>
+  <arcs xsi:type="ex:PTArc" name="a116_3" input="//@places.50" output="//@trans.50"/>
+  <arcs xsi:type="ex:TPArc" name="a116_4" input="//@trans.48" output="//@places.49"/>
+  <arcs xsi:type="ex:TPArc" name="a116_5" input="//@trans.49" output="//@places.50"/>
+  <arcs xsi:type="ex:TPArc" name="a116_6" input="//@trans.50" output="//@places.48"/>
+  <arcs xsi:type="ex:PTArc" name="a117_1" input="//@places.51" output="//@trans.51"/>
+  <arcs xsi:type="ex:PTArc" name="a117_2" input="//@places.52" output="//@trans.52"/>
+  <arcs xsi:type="ex:PTArc" name="a117_3" input="//@places.53" output="//@trans.53"/>
+  <arcs xsi:type="ex:TPArc" name="a117_4" input="//@trans.51" output="//@places.52"/>
+  <arcs xsi:type="ex:TPArc" name="a117_5" input="//@trans.52" output="//@places.53"/>
+  <arcs xsi:type="ex:TPArc" name="a117_6" input="//@trans.53" output="//@places.51"/>
+  <arcs xsi:type="ex:PTArc" name="a118_1" input="//@places.54" output="//@trans.54"/>
+  <arcs xsi:type="ex:PTArc" name="a118_2" input="//@places.55" output="//@trans.55"/>
+  <arcs xsi:type="ex:PTArc" name="a118_3" input="//@places.56" output="//@trans.56"/>
+  <arcs xsi:type="ex:TPArc" name="a118_4" input="//@trans.54" output="//@places.55"/>
+  <arcs xsi:type="ex:TPArc" name="a118_5" input="//@trans.55" output="//@places.56"/>
+  <arcs xsi:type="ex:TPArc" name="a118_6" input="//@trans.56" output="//@places.54"/>
+  <arcs xsi:type="ex:PTArc" name="a119_1" input="//@places.57" output="//@trans.57"/>
+  <arcs xsi:type="ex:PTArc" name="a119_2" input="//@places.58" output="//@trans.58"/>
+  <arcs xsi:type="ex:PTArc" name="a119_3" input="//@places.59" output="//@trans.59"/>
+  <arcs xsi:type="ex:TPArc" name="a119_4" input="//@trans.57" output="//@places.58"/>
+  <arcs xsi:type="ex:TPArc" name="a119_5" input="//@trans.58" output="//@places.59"/>
+  <arcs xsi:type="ex:TPArc" name="a119_6" input="//@trans.59" output="//@places.57"/>
+  <arcs xsi:type="ex:PTArc" name="a130_1" input="//@places.60" output="//@trans.60"/>
+  <arcs xsi:type="ex:PTArc" name="a130_2" input="//@places.61" output="//@trans.61"/>
+  <arcs xsi:type="ex:PTArc" name="a130_3" input="//@places.62" output="//@trans.62"/>
+  <arcs xsi:type="ex:TPArc" name="a130_4" input="//@trans.60" output="//@places.61"/>
+  <arcs xsi:type="ex:TPArc" name="a130_5" input="//@trans.61" output="//@places.62"/>
+  <arcs xsi:type="ex:TPArc" name="a130_6" input="//@trans.62" output="//@places.60"/>
+  <arcs xsi:type="ex:PTArc" name="a131_1" input="//@places.63" output="//@trans.63"/>
+  <arcs xsi:type="ex:PTArc" name="a131_2" input="//@places.64" output="//@trans.64"/>
+  <arcs xsi:type="ex:PTArc" name="a131_3" input="//@places.65" output="//@trans.65"/>
+  <arcs xsi:type="ex:TPArc" name="a131_4" input="//@trans.63" output="//@places.64"/>
+  <arcs xsi:type="ex:TPArc" name="a131_5" input="//@trans.64" output="//@places.65"/>
+  <arcs xsi:type="ex:TPArc" name="a131_6" input="//@trans.65" output="//@places.63"/>
+  <arcs xsi:type="ex:PTArc" name="a132_1" input="//@places.66" output="//@trans.66"/>
+  <arcs xsi:type="ex:PTArc" name="a132_2" input="//@places.67" output="//@trans.67"/>
+  <arcs xsi:type="ex:PTArc" name="a132_3" input="//@places.68" output="//@trans.68"/>
+  <arcs xsi:type="ex:TPArc" name="a132_4" input="//@trans.66" output="//@places.67"/>
+  <arcs xsi:type="ex:TPArc" name="a132_5" input="//@trans.67" output="//@places.68"/>
+  <arcs xsi:type="ex:TPArc" name="a132_6" input="//@trans.68" output="//@places.66"/>
+  <arcs xsi:type="ex:PTArc" name="a133_1" input="//@places.69" output="//@trans.69"/>
+  <arcs xsi:type="ex:PTArc" name="a133_2" input="//@places.70" output="//@trans.70"/>
+  <arcs xsi:type="ex:PTArc" name="a133_3" input="//@places.71" output="//@trans.71"/>
+  <arcs xsi:type="ex:TPArc" name="a133_4" input="//@trans.69" output="//@places.70"/>
+  <arcs xsi:type="ex:TPArc" name="a133_5" input="//@trans.70" output="//@places.71"/>
+  <arcs xsi:type="ex:TPArc" name="a133_6" input="//@trans.71" output="//@places.69"/>
+  <arcs xsi:type="ex:PTArc" name="a134_1" input="//@places.72" output="//@trans.72"/>
+  <arcs xsi:type="ex:PTArc" name="a134_2" input="//@places.73" output="//@trans.73"/>
+  <arcs xsi:type="ex:PTArc" name="a134_3" input="//@places.74" output="//@trans.74"/>
+  <arcs xsi:type="ex:TPArc" name="a134_4" input="//@trans.72" output="//@places.73"/>
+  <arcs xsi:type="ex:TPArc" name="a134_5" input="//@trans.73" output="//@places.74"/>
+  <arcs xsi:type="ex:TPArc" name="a134_6" input="//@trans.74" output="//@places.72"/>
+  <arcs xsi:type="ex:PTArc" name="a135_1" input="//@places.75" output="//@trans.75"/>
+  <arcs xsi:type="ex:PTArc" name="a135_2" input="//@places.76" output="//@trans.76"/>
+  <arcs xsi:type="ex:PTArc" name="a135_3" input="//@places.77" output="//@trans.77"/>
+  <arcs xsi:type="ex:TPArc" name="a135_4" input="//@trans.75" output="//@places.76"/>
+  <arcs xsi:type="ex:TPArc" name="a135_5" input="//@trans.76" output="//@places.77"/>
+  <arcs xsi:type="ex:TPArc" name="a135_6" input="//@trans.77" output="//@places.75"/>
+  <arcs xsi:type="ex:PTArc" name="a136_1" input="//@places.78" output="//@trans.78"/>
+  <arcs xsi:type="ex:PTArc" name="a136_2" input="//@places.79" output="//@trans.79"/>
+  <arcs xsi:type="ex:PTArc" name="a136_3" input="//@places.80" output="//@trans.80"/>
+  <arcs xsi:type="ex:TPArc" name="a136_4" input="//@trans.78" output="//@places.79"/>
+  <arcs xsi:type="ex:TPArc" name="a136_5" input="//@trans.79" output="//@places.80"/>
+  <arcs xsi:type="ex:TPArc" name="a136_6" input="//@trans.80" output="//@places.78"/>
+  <arcs xsi:type="ex:PTArc" name="a137_1" input="//@places.81" output="//@trans.81"/>
+  <arcs xsi:type="ex:PTArc" name="a137_2" input="//@places.82" output="//@trans.82"/>
+  <arcs xsi:type="ex:PTArc" name="a137_3" input="//@places.83" output="//@trans.83"/>
+  <arcs xsi:type="ex:TPArc" name="a137_4" input="//@trans.81" output="//@places.82"/>
+  <arcs xsi:type="ex:TPArc" name="a137_5" input="//@trans.82" output="//@places.83"/>
+  <arcs xsi:type="ex:TPArc" name="a137_6" input="//@trans.83" output="//@places.81"/>
+  <arcs xsi:type="ex:PTArc" name="a138_1" input="//@places.84" output="//@trans.84"/>
+  <arcs xsi:type="ex:PTArc" name="a138_2" input="//@places.85" output="//@trans.85"/>
+  <arcs xsi:type="ex:PTArc" name="a138_3" input="//@places.86" output="//@trans.86"/>
+  <arcs xsi:type="ex:TPArc" name="a138_4" input="//@trans.84" output="//@places.85"/>
+  <arcs xsi:type="ex:TPArc" name="a138_5" input="//@trans.85" output="//@places.86"/>
+  <arcs xsi:type="ex:TPArc" name="a138_6" input="//@trans.86" output="//@places.84"/>
+  <arcs xsi:type="ex:PTArc" name="a139_1" input="//@places.87" output="//@trans.87"/>
+  <arcs xsi:type="ex:PTArc" name="a139_2" input="//@places.88" output="//@trans.88"/>
+  <arcs xsi:type="ex:PTArc" name="a139_3" input="//@places.89" output="//@trans.89"/>
+  <arcs xsi:type="ex:TPArc" name="a139_4" input="//@trans.87" output="//@places.88"/>
+  <arcs xsi:type="ex:TPArc" name="a139_5" input="//@trans.88" output="//@places.89"/>
+  <arcs xsi:type="ex:TPArc" name="a139_6" input="//@trans.89" output="//@places.87"/>
+  <arcs xsi:type="ex:PTArc" name="a120_1" input="//@places.90" output="//@trans.90"/>
+  <arcs xsi:type="ex:PTArc" name="a120_2" input="//@places.91" output="//@trans.91"/>
+  <arcs xsi:type="ex:PTArc" name="a120_3" input="//@places.92" output="//@trans.92"/>
+  <arcs xsi:type="ex:TPArc" name="a120_4" input="//@trans.90" output="//@places.91"/>
+  <arcs xsi:type="ex:TPArc" name="a120_5" input="//@trans.91" output="//@places.92"/>
+  <arcs xsi:type="ex:TPArc" name="a120_6" input="//@trans.92" output="//@places.90"/>
+  <arcs xsi:type="ex:PTArc" name="a121_1" input="//@places.93" output="//@trans.93"/>
+  <arcs xsi:type="ex:PTArc" name="a121_2" input="//@places.94" output="//@trans.94"/>
+  <arcs xsi:type="ex:PTArc" name="a121_3" input="//@places.95" output="//@trans.95"/>
+  <arcs xsi:type="ex:TPArc" name="a121_4" input="//@trans.93" output="//@places.94"/>
+  <arcs xsi:type="ex:TPArc" name="a121_5" input="//@trans.94" output="//@places.95"/>
+  <arcs xsi:type="ex:TPArc" name="a121_6" input="//@trans.95" output="//@places.93"/>
+  <arcs xsi:type="ex:PTArc" name="a122_1" input="//@places.96" output="//@trans.96"/>
+  <arcs xsi:type="ex:PTArc" name="a122_2" input="//@places.97" output="//@trans.97"/>
+  <arcs xsi:type="ex:PTArc" name="a122_3" input="//@places.98" output="//@trans.98"/>
+  <arcs xsi:type="ex:TPArc" name="a122_4" input="//@trans.96" output="//@places.97"/>
+  <arcs xsi:type="ex:TPArc" name="a122_5" input="//@trans.97" output="//@places.98"/>
+  <arcs xsi:type="ex:TPArc" name="a122_6" input="//@trans.98" output="//@places.96"/>
+  <arcs xsi:type="ex:PTArc" name="a123_1" input="//@places.99" output="//@trans.99"/>
+  <arcs xsi:type="ex:PTArc" name="a123_2" input="//@places.100" output="//@trans.100"/>
+  <arcs xsi:type="ex:PTArc" name="a123_3" input="//@places.101" output="//@trans.101"/>
+  <arcs xsi:type="ex:TPArc" name="a123_4" input="//@trans.99" output="//@places.100"/>
+  <arcs xsi:type="ex:TPArc" name="a123_5" input="//@trans.100" output="//@places.101"/>
+  <arcs xsi:type="ex:TPArc" name="a123_6" input="//@trans.101" output="//@places.99"/>
+  <arcs xsi:type="ex:PTArc" name="a124_1" input="//@places.102" output="//@trans.102"/>
+  <arcs xsi:type="ex:PTArc" name="a124_2" input="//@places.103" output="//@trans.103"/>
+  <arcs xsi:type="ex:PTArc" name="a124_3" input="//@places.104" output="//@trans.104"/>
+  <arcs xsi:type="ex:TPArc" name="a124_4" input="//@trans.102" output="//@places.103"/>
+  <arcs xsi:type="ex:TPArc" name="a124_5" input="//@trans.103" output="//@places.104"/>
+  <arcs xsi:type="ex:TPArc" name="a124_6" input="//@trans.104" output="//@places.102"/>
+  <arcs xsi:type="ex:PTArc" name="a125_1" input="//@places.105" output="//@trans.105"/>
+  <arcs xsi:type="ex:PTArc" name="a125_2" input="//@places.106" output="//@trans.106"/>
+  <arcs xsi:type="ex:PTArc" name="a125_3" input="//@places.107" output="//@trans.107"/>
+  <arcs xsi:type="ex:TPArc" name="a125_4" input="//@trans.105" output="//@places.106"/>
+  <arcs xsi:type="ex:TPArc" name="a125_5" input="//@trans.106" output="//@places.107"/>
+  <arcs xsi:type="ex:TPArc" name="a125_6" input="//@trans.107" output="//@places.105"/>
+  <arcs xsi:type="ex:PTArc" name="a126_1" input="//@places.108" output="//@trans.108"/>
+  <arcs xsi:type="ex:PTArc" name="a126_2" input="//@places.109" output="//@trans.109"/>
+  <arcs xsi:type="ex:PTArc" name="a126_3" input="//@places.110" output="//@trans.110"/>
+  <arcs xsi:type="ex:TPArc" name="a126_4" input="//@trans.108" output="//@places.109"/>
+  <arcs xsi:type="ex:TPArc" name="a126_5" input="//@trans.109" output="//@places.110"/>
+  <arcs xsi:type="ex:TPArc" name="a126_6" input="//@trans.110" output="//@places.108"/>
+  <arcs xsi:type="ex:PTArc" name="a127_1" input="//@places.111" output="//@trans.111"/>
+  <arcs xsi:type="ex:PTArc" name="a127_2" input="//@places.112" output="//@trans.112"/>
+  <arcs xsi:type="ex:PTArc" name="a127_3" input="//@places.113" output="//@trans.113"/>
+  <arcs xsi:type="ex:TPArc" name="a127_4" input="//@trans.111" output="//@places.112"/>
+  <arcs xsi:type="ex:TPArc" name="a127_5" input="//@trans.112" output="//@places.113"/>
+  <arcs xsi:type="ex:TPArc" name="a127_6" input="//@trans.113" output="//@places.111"/>
+  <arcs xsi:type="ex:PTArc" name="a128_1" input="//@places.114" output="//@trans.114"/>
+  <arcs xsi:type="ex:PTArc" name="a128_2" input="//@places.115" output="//@trans.115"/>
+  <arcs xsi:type="ex:PTArc" name="a128_3" input="//@places.116" output="//@trans.116"/>
+  <arcs xsi:type="ex:TPArc" name="a128_4" input="//@trans.114" output="//@places.115"/>
+  <arcs xsi:type="ex:TPArc" name="a128_5" input="//@trans.115" output="//@places.116"/>
+  <arcs xsi:type="ex:TPArc" name="a128_6" input="//@trans.116" output="//@places.114"/>
+  <arcs xsi:type="ex:PTArc" name="a129_1" input="//@places.117" output="//@trans.117"/>
+  <arcs xsi:type="ex:PTArc" name="a129_2" input="//@places.118" output="//@trans.118"/>
+  <arcs xsi:type="ex:PTArc" name="a129_3" input="//@places.119" output="//@trans.119"/>
+  <arcs xsi:type="ex:TPArc" name="a129_4" input="//@trans.117" output="//@places.118"/>
+  <arcs xsi:type="ex:TPArc" name="a129_5" input="//@trans.118" output="//@places.119"/>
+  <arcs xsi:type="ex:TPArc" name="a129_6" input="//@trans.119" output="//@places.117"/>
+  <arcs xsi:type="ex:PTArc" name="a000_1" input="//@places.120" output="//@trans.120"/>
+  <arcs xsi:type="ex:PTArc" name="a000_2" input="//@places.121" output="//@trans.121"/>
+  <arcs xsi:type="ex:PTArc" name="a000_3" input="//@places.122" output="//@trans.122"/>
+  <arcs xsi:type="ex:TPArc" name="a000_4" input="//@trans.120" output="//@places.121"/>
+  <arcs xsi:type="ex:TPArc" name="a000_5" input="//@trans.121" output="//@places.122"/>
+  <arcs xsi:type="ex:TPArc" name="a000_6" input="//@trans.122" output="//@places.120"/>
+  <arcs xsi:type="ex:PTArc" name="a001_1" input="//@places.123" output="//@trans.123"/>
+  <arcs xsi:type="ex:PTArc" name="a001_2" input="//@places.124" output="//@trans.124"/>
+  <arcs xsi:type="ex:PTArc" name="a001_3" input="//@places.125" output="//@trans.125"/>
+  <arcs xsi:type="ex:TPArc" name="a001_4" input="//@trans.123" output="//@places.124"/>
+  <arcs xsi:type="ex:TPArc" name="a001_5" input="//@trans.124" output="//@places.125"/>
+  <arcs xsi:type="ex:TPArc" name="a001_6" input="//@trans.125" output="//@places.123"/>
+  <arcs xsi:type="ex:PTArc" name="a002_1" input="//@places.126" output="//@trans.126"/>
+  <arcs xsi:type="ex:PTArc" name="a002_2" input="//@places.127" output="//@trans.127"/>
+  <arcs xsi:type="ex:PTArc" name="a002_3" input="//@places.128" output="//@trans.128"/>
+  <arcs xsi:type="ex:TPArc" name="a002_4" input="//@trans.126" output="//@places.127"/>
+  <arcs xsi:type="ex:TPArc" name="a002_5" input="//@trans.127" output="//@places.128"/>
+  <arcs xsi:type="ex:TPArc" name="a002_6" input="//@trans.128" output="//@places.126"/>
+  <arcs xsi:type="ex:PTArc" name="a003_1" input="//@places.129" output="//@trans.129"/>
+  <arcs xsi:type="ex:PTArc" name="a003_2" input="//@places.130" output="//@trans.130"/>
+  <arcs xsi:type="ex:PTArc" name="a003_3" input="//@places.131" output="//@trans.131"/>
+  <arcs xsi:type="ex:TPArc" name="a003_4" input="//@trans.129" output="//@places.130"/>
+  <arcs xsi:type="ex:TPArc" name="a003_5" input="//@trans.130" output="//@places.131"/>
+  <arcs xsi:type="ex:TPArc" name="a003_6" input="//@trans.131" output="//@places.129"/>
+  <arcs xsi:type="ex:PTArc" name="a004_1" input="//@places.132" output="//@trans.132"/>
+  <arcs xsi:type="ex:PTArc" name="a004_2" input="//@places.133" output="//@trans.133"/>
+  <arcs xsi:type="ex:PTArc" name="a004_3" input="//@places.134" output="//@trans.134"/>
+  <arcs xsi:type="ex:TPArc" name="a004_4" input="//@trans.132" output="//@places.133"/>
+  <arcs xsi:type="ex:TPArc" name="a004_5" input="//@trans.133" output="//@places.134"/>
+  <arcs xsi:type="ex:TPArc" name="a004_6" input="//@trans.134" output="//@places.132"/>
+  <arcs xsi:type="ex:PTArc" name="a005_1" input="//@places.135" output="//@trans.135"/>
+  <arcs xsi:type="ex:PTArc" name="a005_2" input="//@places.136" output="//@trans.136"/>
+  <arcs xsi:type="ex:PTArc" name="a005_3" input="//@places.137" output="//@trans.137"/>
+  <arcs xsi:type="ex:TPArc" name="a005_4" input="//@trans.135" output="//@places.136"/>
+  <arcs xsi:type="ex:TPArc" name="a005_5" input="//@trans.136" output="//@places.137"/>
+  <arcs xsi:type="ex:TPArc" name="a005_6" input="//@trans.137" output="//@places.135"/>
+  <arcs xsi:type="ex:PTArc" name="a006_1" input="//@places.138" output="//@trans.138"/>
+  <arcs xsi:type="ex:PTArc" name="a006_2" input="//@places.139" output="//@trans.139"/>
+  <arcs xsi:type="ex:PTArc" name="a006_3" input="//@places.140" output="//@trans.140"/>
+  <arcs xsi:type="ex:TPArc" name="a006_4" input="//@trans.138" output="//@places.139"/>
+  <arcs xsi:type="ex:TPArc" name="a006_5" input="//@trans.139" output="//@places.140"/>
+  <arcs xsi:type="ex:TPArc" name="a006_6" input="//@trans.140" output="//@places.138"/>
+  <arcs xsi:type="ex:PTArc" name="a007_1" input="//@places.141" output="//@trans.141"/>
+  <arcs xsi:type="ex:PTArc" name="a007_2" input="//@places.142" output="//@trans.142"/>
+  <arcs xsi:type="ex:PTArc" name="a007_3" input="//@places.143" output="//@trans.143"/>
+  <arcs xsi:type="ex:TPArc" name="a007_4" input="//@trans.141" output="//@places.142"/>
+  <arcs xsi:type="ex:TPArc" name="a007_5" input="//@trans.142" output="//@places.143"/>
+  <arcs xsi:type="ex:TPArc" name="a007_6" input="//@trans.143" output="//@places.141"/>
+  <arcs xsi:type="ex:PTArc" name="a008_1" input="//@places.144" output="//@trans.144"/>
+  <arcs xsi:type="ex:PTArc" name="a008_2" input="//@places.145" output="//@trans.145"/>
+  <arcs xsi:type="ex:PTArc" name="a008_3" input="//@places.146" output="//@trans.146"/>
+  <arcs xsi:type="ex:TPArc" name="a008_4" input="//@trans.144" output="//@places.145"/>
+  <arcs xsi:type="ex:TPArc" name="a008_5" input="//@trans.145" output="//@places.146"/>
+  <arcs xsi:type="ex:TPArc" name="a008_6" input="//@trans.146" output="//@places.144"/>
+  <arcs xsi:type="ex:PTArc" name="a009_1" input="//@places.147" output="//@trans.147"/>
+  <arcs xsi:type="ex:PTArc" name="a009_2" input="//@places.148" output="//@trans.148"/>
+  <arcs xsi:type="ex:PTArc" name="a009_3" input="//@places.149" output="//@trans.149"/>
+  <arcs xsi:type="ex:TPArc" name="a009_4" input="//@trans.147" output="//@places.148"/>
+  <arcs xsi:type="ex:TPArc" name="a009_5" input="//@trans.148" output="//@places.149"/>
+  <arcs xsi:type="ex:TPArc" name="a009_6" input="//@trans.149" output="//@places.147"/>
+  <arcs xsi:type="ex:PTArc" name="a010_1" input="//@places.150" output="//@trans.150"/>
+  <arcs xsi:type="ex:PTArc" name="a010_2" input="//@places.151" output="//@trans.151"/>
+  <arcs xsi:type="ex:PTArc" name="a010_3" input="//@places.152" output="//@trans.152"/>
+  <arcs xsi:type="ex:TPArc" name="a010_4" input="//@trans.150" output="//@places.151"/>
+  <arcs xsi:type="ex:TPArc" name="a010_5" input="//@trans.151" output="//@places.152"/>
+  <arcs xsi:type="ex:TPArc" name="a010_6" input="//@trans.152" output="//@places.150"/>
+  <arcs xsi:type="ex:PTArc" name="a011_1" input="//@places.153" output="//@trans.153"/>
+  <arcs xsi:type="ex:PTArc" name="a011_2" input="//@places.154" output="//@trans.154"/>
+  <arcs xsi:type="ex:PTArc" name="a011_3" input="//@places.155" output="//@trans.155"/>
+  <arcs xsi:type="ex:TPArc" name="a011_4" input="//@trans.153" output="//@places.154"/>
+  <arcs xsi:type="ex:TPArc" name="a011_5" input="//@trans.154" output="//@places.155"/>
+  <arcs xsi:type="ex:TPArc" name="a011_6" input="//@trans.155" output="//@places.153"/>
+  <arcs xsi:type="ex:PTArc" name="a012_1" input="//@places.156" output="//@trans.156"/>
+  <arcs xsi:type="ex:PTArc" name="a012_2" input="//@places.157" output="//@trans.157"/>
+  <arcs xsi:type="ex:PTArc" name="a012_3" input="//@places.158" output="//@trans.158"/>
+  <arcs xsi:type="ex:TPArc" name="a012_4" input="//@trans.156" output="//@places.157"/>
+  <arcs xsi:type="ex:TPArc" name="a012_5" input="//@trans.157" output="//@places.158"/>
+  <arcs xsi:type="ex:TPArc" name="a012_6" input="//@trans.158" output="//@places.156"/>
+  <arcs xsi:type="ex:PTArc" name="a013_1" input="//@places.159" output="//@trans.159"/>
+  <arcs xsi:type="ex:PTArc" name="a013_2" input="//@places.160" output="//@trans.160"/>
+  <arcs xsi:type="ex:PTArc" name="a013_3" input="//@places.161" output="//@trans.161"/>
+  <arcs xsi:type="ex:TPArc" name="a013_4" input="//@trans.159" output="//@places.160"/>
+  <arcs xsi:type="ex:TPArc" name="a013_5" input="//@trans.160" output="//@places.161"/>
+  <arcs xsi:type="ex:TPArc" name="a013_6" input="//@trans.161" output="//@places.159"/>
+  <arcs xsi:type="ex:PTArc" name="a014_1" input="//@places.162" output="//@trans.162"/>
+  <arcs xsi:type="ex:PTArc" name="a014_2" input="//@places.163" output="//@trans.163"/>
+  <arcs xsi:type="ex:PTArc" name="a014_3" input="//@places.164" output="//@trans.164"/>
+  <arcs xsi:type="ex:TPArc" name="a014_4" input="//@trans.162" output="//@places.163"/>
+  <arcs xsi:type="ex:TPArc" name="a014_5" input="//@trans.163" output="//@places.164"/>
+  <arcs xsi:type="ex:TPArc" name="a014_6" input="//@trans.164" output="//@places.162"/>
+  <arcs xsi:type="ex:PTArc" name="a015_1" input="//@places.165" output="//@trans.165"/>
+  <arcs xsi:type="ex:PTArc" name="a015_2" input="//@places.166" output="//@trans.166"/>
+  <arcs xsi:type="ex:PTArc" name="a015_3" input="//@places.167" output="//@trans.167"/>
+  <arcs xsi:type="ex:TPArc" name="a015_4" input="//@trans.165" output="//@places.166"/>
+  <arcs xsi:type="ex:TPArc" name="a015_5" input="//@trans.166" output="//@places.167"/>
+  <arcs xsi:type="ex:TPArc" name="a015_6" input="//@trans.167" output="//@places.165"/>
+  <arcs xsi:type="ex:PTArc" name="a016_1" input="//@places.168" output="//@trans.168"/>
+  <arcs xsi:type="ex:PTArc" name="a016_2" input="//@places.169" output="//@trans.169"/>
+  <arcs xsi:type="ex:PTArc" name="a016_3" input="//@places.170" output="//@trans.170"/>
+  <arcs xsi:type="ex:TPArc" name="a016_4" input="//@trans.168" output="//@places.169"/>
+  <arcs xsi:type="ex:TPArc" name="a016_5" input="//@trans.169" output="//@places.170"/>
+  <arcs xsi:type="ex:TPArc" name="a016_6" input="//@trans.170" output="//@places.168"/>
+  <arcs xsi:type="ex:PTArc" name="a017_1" input="//@places.171" output="//@trans.171"/>
+  <arcs xsi:type="ex:PTArc" name="a017_2" input="//@places.172" output="//@trans.172"/>
+  <arcs xsi:type="ex:PTArc" name="a017_3" input="//@places.173" output="//@trans.173"/>
+  <arcs xsi:type="ex:TPArc" name="a017_4" input="//@trans.171" output="//@places.172"/>
+  <arcs xsi:type="ex:TPArc" name="a017_5" input="//@trans.172" output="//@places.173"/>
+  <arcs xsi:type="ex:TPArc" name="a017_6" input="//@trans.173" output="//@places.171"/>
+  <arcs xsi:type="ex:PTArc" name="a018_1" input="//@places.174" output="//@trans.174"/>
+  <arcs xsi:type="ex:PTArc" name="a018_2" input="//@places.175" output="//@trans.175"/>
+  <arcs xsi:type="ex:PTArc" name="a018_3" input="//@places.176" output="//@trans.176"/>
+  <arcs xsi:type="ex:TPArc" name="a018_4" input="//@trans.174" output="//@places.175"/>
+  <arcs xsi:type="ex:TPArc" name="a018_5" input="//@trans.175" output="//@places.176"/>
+  <arcs xsi:type="ex:TPArc" name="a018_6" input="//@trans.176" output="//@places.174"/>
+  <arcs xsi:type="ex:PTArc" name="a019_1" input="//@places.177" output="//@trans.177"/>
+  <arcs xsi:type="ex:PTArc" name="a019_2" input="//@places.178" output="//@trans.178"/>
+  <arcs xsi:type="ex:PTArc" name="a019_3" input="//@places.179" output="//@trans.179"/>
+  <arcs xsi:type="ex:TPArc" name="a019_4" input="//@trans.177" output="//@places.178"/>
+  <arcs xsi:type="ex:TPArc" name="a019_5" input="//@trans.178" output="//@places.179"/>
+  <arcs xsi:type="ex:TPArc" name="a019_6" input="//@trans.179" output="//@places.177"/>
+  <arcs xsi:type="ex:PTArc" name="a030_1" input="//@places.180" output="//@trans.180"/>
+  <arcs xsi:type="ex:PTArc" name="a030_2" input="//@places.181" output="//@trans.181"/>
+  <arcs xsi:type="ex:PTArc" name="a030_3" input="//@places.182" output="//@trans.182"/>
+  <arcs xsi:type="ex:TPArc" name="a030_4" input="//@trans.180" output="//@places.181"/>
+  <arcs xsi:type="ex:TPArc" name="a030_5" input="//@trans.181" output="//@places.182"/>
+  <arcs xsi:type="ex:TPArc" name="a030_6" input="//@trans.182" output="//@places.180"/>
+  <arcs xsi:type="ex:PTArc" name="a031_1" input="//@places.183" output="//@trans.183"/>
+  <arcs xsi:type="ex:PTArc" name="a031_2" input="//@places.184" output="//@trans.184"/>
+  <arcs xsi:type="ex:PTArc" name="a031_3" input="//@places.185" output="//@trans.185"/>
+  <arcs xsi:type="ex:TPArc" name="a031_4" input="//@trans.183" output="//@places.184"/>
+  <arcs xsi:type="ex:TPArc" name="a031_5" input="//@trans.184" output="//@places.185"/>
+  <arcs xsi:type="ex:TPArc" name="a031_6" input="//@trans.185" output="//@places.183"/>
+  <arcs xsi:type="ex:PTArc" name="a032_1" input="//@places.186" output="//@trans.186"/>
+  <arcs xsi:type="ex:PTArc" name="a032_2" input="//@places.187" output="//@trans.187"/>
+  <arcs xsi:type="ex:PTArc" name="a032_3" input="//@places.188" output="//@trans.188"/>
+  <arcs xsi:type="ex:TPArc" name="a032_4" input="//@trans.186" output="//@places.187"/>
+  <arcs xsi:type="ex:TPArc" name="a032_5" input="//@trans.187" output="//@places.188"/>
+  <arcs xsi:type="ex:TPArc" name="a032_6" input="//@trans.188" output="//@places.186"/>
+  <arcs xsi:type="ex:PTArc" name="a033_1" input="//@places.189" output="//@trans.189"/>
+  <arcs xsi:type="ex:PTArc" name="a033_2" input="//@places.190" output="//@trans.190"/>
+  <arcs xsi:type="ex:PTArc" name="a033_3" input="//@places.191" output="//@trans.191"/>
+  <arcs xsi:type="ex:TPArc" name="a033_4" input="//@trans.189" output="//@places.190"/>
+  <arcs xsi:type="ex:TPArc" name="a033_5" input="//@trans.190" output="//@places.191"/>
+  <arcs xsi:type="ex:TPArc" name="a033_6" input="//@trans.191" output="//@places.189"/>
+  <arcs xsi:type="ex:PTArc" name="a034_1" input="//@places.192" output="//@trans.192"/>
+  <arcs xsi:type="ex:PTArc" name="a034_2" input="//@places.193" output="//@trans.193"/>
+  <arcs xsi:type="ex:PTArc" name="a034_3" input="//@places.194" output="//@trans.194"/>
+  <arcs xsi:type="ex:TPArc" name="a034_4" input="//@trans.192" output="//@places.193"/>
+  <arcs xsi:type="ex:TPArc" name="a034_5" input="//@trans.193" output="//@places.194"/>
+  <arcs xsi:type="ex:TPArc" name="a034_6" input="//@trans.194" output="//@places.192"/>
+  <arcs xsi:type="ex:PTArc" name="a035_1" input="//@places.195" output="//@trans.195"/>
+  <arcs xsi:type="ex:PTArc" name="a035_2" input="//@places.196" output="//@trans.196"/>
+  <arcs xsi:type="ex:PTArc" name="a035_3" input="//@places.197" output="//@trans.197"/>
+  <arcs xsi:type="ex:TPArc" name="a035_4" input="//@trans.195" output="//@places.196"/>
+  <arcs xsi:type="ex:TPArc" name="a035_5" input="//@trans.196" output="//@places.197"/>
+  <arcs xsi:type="ex:TPArc" name="a035_6" input="//@trans.197" output="//@places.195"/>
+  <arcs xsi:type="ex:PTArc" name="a036_1" input="//@places.198" output="//@trans.198"/>
+  <arcs xsi:type="ex:PTArc" name="a036_2" input="//@places.199" output="//@trans.199"/>
+  <arcs xsi:type="ex:PTArc" name="a036_3" input="//@places.200" output="//@trans.200"/>
+  <arcs xsi:type="ex:TPArc" name="a036_4" input="//@trans.198" output="//@places.199"/>
+  <arcs xsi:type="ex:TPArc" name="a036_5" input="//@trans.199" output="//@places.200"/>
+  <arcs xsi:type="ex:TPArc" name="a036_6" input="//@trans.200" output="//@places.198"/>
+  <arcs xsi:type="ex:PTArc" name="a037_1" input="//@places.201" output="//@trans.201"/>
+  <arcs xsi:type="ex:PTArc" name="a037_2" input="//@places.202" output="//@trans.202"/>
+  <arcs xsi:type="ex:PTArc" name="a037_3" input="//@places.203" output="//@trans.203"/>
+  <arcs xsi:type="ex:TPArc" name="a037_4" input="//@trans.201" output="//@places.202"/>
+  <arcs xsi:type="ex:TPArc" name="a037_5" input="//@trans.202" output="//@places.203"/>
+  <arcs xsi:type="ex:TPArc" name="a037_6" input="//@trans.203" output="//@places.201"/>
+  <arcs xsi:type="ex:PTArc" name="a038_1" input="//@places.204" output="//@trans.204"/>
+  <arcs xsi:type="ex:PTArc" name="a038_2" input="//@places.205" output="//@trans.205"/>
+  <arcs xsi:type="ex:PTArc" name="a038_3" input="//@places.206" output="//@trans.206"/>
+  <arcs xsi:type="ex:TPArc" name="a038_4" input="//@trans.204" output="//@places.205"/>
+  <arcs xsi:type="ex:TPArc" name="a038_5" input="//@trans.205" output="//@places.206"/>
+  <arcs xsi:type="ex:TPArc" name="a038_6" input="//@trans.206" output="//@places.204"/>
+  <arcs xsi:type="ex:PTArc" name="a039_1" input="//@places.207" output="//@trans.207"/>
+  <arcs xsi:type="ex:PTArc" name="a039_2" input="//@places.208" output="//@trans.208"/>
+  <arcs xsi:type="ex:PTArc" name="a039_3" input="//@places.209" output="//@trans.209"/>
+  <arcs xsi:type="ex:TPArc" name="a039_4" input="//@trans.207" output="//@places.208"/>
+  <arcs xsi:type="ex:TPArc" name="a039_5" input="//@trans.208" output="//@places.209"/>
+  <arcs xsi:type="ex:TPArc" name="a039_6" input="//@trans.209" output="//@places.207"/>
+  <arcs xsi:type="ex:PTArc" name="a020_1" input="//@places.210" output="//@trans.210"/>
+  <arcs xsi:type="ex:PTArc" name="a020_2" input="//@places.211" output="//@trans.211"/>
+  <arcs xsi:type="ex:PTArc" name="a020_3" input="//@places.212" output="//@trans.212"/>
+  <arcs xsi:type="ex:TPArc" name="a020_4" input="//@trans.210" output="//@places.211"/>
+  <arcs xsi:type="ex:TPArc" name="a020_5" input="//@trans.211" output="//@places.212"/>
+  <arcs xsi:type="ex:TPArc" name="a020_6" input="//@trans.212" output="//@places.210"/>
+  <arcs xsi:type="ex:PTArc" name="a021_1" input="//@places.213" output="//@trans.213"/>
+  <arcs xsi:type="ex:PTArc" name="a021_2" input="//@places.214" output="//@trans.214"/>
+  <arcs xsi:type="ex:PTArc" name="a021_3" input="//@places.215" output="//@trans.215"/>
+  <arcs xsi:type="ex:TPArc" name="a021_4" input="//@trans.213" output="//@places.214"/>
+  <arcs xsi:type="ex:TPArc" name="a021_5" input="//@trans.214" output="//@places.215"/>
+  <arcs xsi:type="ex:TPArc" name="a021_6" input="//@trans.215" output="//@places.213"/>
+  <arcs xsi:type="ex:PTArc" name="a022_1" input="//@places.216" output="//@trans.216"/>
+  <arcs xsi:type="ex:PTArc" name="a022_2" input="//@places.217" output="//@trans.217"/>
+  <arcs xsi:type="ex:PTArc" name="a022_3" input="//@places.218" output="//@trans.218"/>
+  <arcs xsi:type="ex:TPArc" name="a022_4" input="//@trans.216" output="//@places.217"/>
+  <arcs xsi:type="ex:TPArc" name="a022_5" input="//@trans.217" output="//@places.218"/>
+  <arcs xsi:type="ex:TPArc" name="a022_6" input="//@trans.218" output="//@places.216"/>
+  <arcs xsi:type="ex:PTArc" name="a023_1" input="//@places.219" output="//@trans.219"/>
+  <arcs xsi:type="ex:PTArc" name="a023_2" input="//@places.220" output="//@trans.220"/>
+  <arcs xsi:type="ex:PTArc" name="a023_3" input="//@places.221" output="//@trans.221"/>
+  <arcs xsi:type="ex:TPArc" name="a023_4" input="//@trans.219" output="//@places.220"/>
+  <arcs xsi:type="ex:TPArc" name="a023_5" input="//@trans.220" output="//@places.221"/>
+  <arcs xsi:type="ex:TPArc" name="a023_6" input="//@trans.221" output="//@places.219"/>
+  <arcs xsi:type="ex:PTArc" name="a024_1" input="//@places.222" output="//@trans.222"/>
+  <arcs xsi:type="ex:PTArc" name="a024_2" input="//@places.223" output="//@trans.223"/>
+  <arcs xsi:type="ex:PTArc" name="a024_3" input="//@places.224" output="//@trans.224"/>
+  <arcs xsi:type="ex:TPArc" name="a024_4" input="//@trans.222" output="//@places.223"/>
+  <arcs xsi:type="ex:TPArc" name="a024_5" input="//@trans.223" output="//@places.224"/>
+  <arcs xsi:type="ex:TPArc" name="a024_6" input="//@trans.224" output="//@places.222"/>
+  <arcs xsi:type="ex:PTArc" name="a025_1" input="//@places.225" output="//@trans.225"/>
+  <arcs xsi:type="ex:PTArc" name="a025_2" input="//@places.226" output="//@trans.226"/>
+  <arcs xsi:type="ex:PTArc" name="a025_3" input="//@places.227" output="//@trans.227"/>
+  <arcs xsi:type="ex:TPArc" name="a025_4" input="//@trans.225" output="//@places.226"/>
+  <arcs xsi:type="ex:TPArc" name="a025_5" input="//@trans.226" output="//@places.227"/>
+  <arcs xsi:type="ex:TPArc" name="a025_6" input="//@trans.227" output="//@places.225"/>
+  <arcs xsi:type="ex:PTArc" name="a026_1" input="//@places.228" output="//@trans.228"/>
+  <arcs xsi:type="ex:PTArc" name="a026_2" input="//@places.229" output="//@trans.229"/>
+  <arcs xsi:type="ex:PTArc" name="a026_3" input="//@places.230" output="//@trans.230"/>
+  <arcs xsi:type="ex:TPArc" name="a026_4" input="//@trans.228" output="//@places.229"/>
+  <arcs xsi:type="ex:TPArc" name="a026_5" input="//@trans.229" output="//@places.230"/>
+  <arcs xsi:type="ex:TPArc" name="a026_6" input="//@trans.230" output="//@places.228"/>
+  <arcs xsi:type="ex:PTArc" name="a027_1" input="//@places.231" output="//@trans.231"/>
+  <arcs xsi:type="ex:PTArc" name="a027_2" input="//@places.232" output="//@trans.232"/>
+  <arcs xsi:type="ex:PTArc" name="a027_3" input="//@places.233" output="//@trans.233"/>
+  <arcs xsi:type="ex:TPArc" name="a027_4" input="//@trans.231" output="//@places.232"/>
+  <arcs xsi:type="ex:TPArc" name="a027_5" input="//@trans.232" output="//@places.233"/>
+  <arcs xsi:type="ex:TPArc" name="a027_6" input="//@trans.233" output="//@places.231"/>
+  <arcs xsi:type="ex:PTArc" name="a028_1" input="//@places.234" output="//@trans.234"/>
+  <arcs xsi:type="ex:PTArc" name="a028_2" input="//@places.235" output="//@trans.235"/>
+  <arcs xsi:type="ex:PTArc" name="a028_3" input="//@places.236" output="//@trans.236"/>
+  <arcs xsi:type="ex:TPArc" name="a028_4" input="//@trans.234" output="//@places.235"/>
+  <arcs xsi:type="ex:TPArc" name="a028_5" input="//@trans.235" output="//@places.236"/>
+  <arcs xsi:type="ex:TPArc" name="a028_6" input="//@trans.236" output="//@places.234"/>
+  <arcs xsi:type="ex:PTArc" name="a029_1" input="//@places.237" output="//@trans.237"/>
+  <arcs xsi:type="ex:PTArc" name="a029_2" input="//@places.238" output="//@trans.238"/>
+  <arcs xsi:type="ex:PTArc" name="a029_3" input="//@places.239" output="//@trans.239"/>
+  <arcs xsi:type="ex:TPArc" name="a029_4" input="//@trans.237" output="//@places.238"/>
+  <arcs xsi:type="ex:TPArc" name="a029_5" input="//@trans.238" output="//@places.239"/>
+  <arcs xsi:type="ex:TPArc" name="a029_6" input="//@trans.239" output="//@places.237"/>
+</ex:PetriNet>
